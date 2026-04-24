@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Network Fundamentals",
+    "description": "Introduction to computer networking concepts",
+    "category": "networking-fundamentals",
+    "level": "beginner",
+    "estimatedDuration": 480,
+    "tags": [
+      "basics",
+      "networking",
+      "fundamentals"
+    ],
+    "modules": [
+      {
+        "id": "module-1",
+        "title": "Introduction to Networks",
+        "description": "Basic networking concepts",
+        "order": 1,
+        "content": "# Introduction to Networks\n\n## What is a Network?\nA network is a collection of interconnected devices that can communicate with each other.\n\n## Types of Networks\n- **LAN**: Local Area Network\n- **WAN**: Wide Area Network\n- **MAN**: Metropolitan Area Network\n\n## Network Components\n- **Devices**: Computers, routers, switches\n- **Media**: Cables, wireless signals\n- **Services**: File sharing, printing, internet access",
+        "type": "text",
+        "duration": 60,
+        "objectives": [
+          "Understand basic network concepts",
+          "Identify network types",
+          "Learn network components"
+        ],
+        "resources": [
+          {
+            "name": "Network Basics PDF",
+            "url": "/downloads/network-basics.pdf",
+            "type": "pdf"
+          }
+        ],
+        "isRequired": true
+      },
+      {
+        "id": "module-2",
+        "title": "OSI Model",
+        "description": "Understanding the 7-layer OSI model",
+        "order": 2,
+        "content": "# OSI Model\n\nThe OSI (Open Systems Interconnection) model is a conceptual framework for understanding network interactions.\n\n## 7 Layers of OSI\n1. **Physical Layer**: Bits and signals\n2. **Data Link Layer**: Frames and MAC addresses\n3. **Network Layer**: Packets and IP addresses\n4. **Transport Layer**: Segments and ports\n5. **Session Layer**: Sessions and dialogs\n6. **Presentation Layer**: Data formatting and encryption\n7. **Application Layer**: User applications and protocols",
+        "type": "text",
+        "duration": 45,
+        "objectives": [
+          "Explain each OSI layer",
+          "Understand layer functions",
+          "Identify protocols at each layer"
+        ],
+        "resources": [],
+        "isRequired": true
+      }
+    ]
+  }
+]

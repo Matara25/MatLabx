@@ -1,0 +1,193 @@
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-20 10:31:42"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-20 10:31:44"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-20 10:38:12"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-20 10:38:12"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-20 11:43:11"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-20 11:43:11"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-20 15:10:11"}
+{"level":"error","message":"MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Unknown"},"service":"netlabx-backend","stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017\n    at _handleConnectionErrors (C:\\Users\\Heli\\Documents\\Intelligent Network Simulation and Training Platform\\node_modules\\mongoose\\lib\\connection.js:816:11)\n    at NativeConnection.openUri (C:\\Users\\Heli\\Documents\\Intelligent Network Simulation and Training Platform\\node_modules\\mongoose\\lib\\connection.js:791:11)\n    at runNextTicks (node:internal/process/task_queues:65:5)\n    at listOnTimeout (node:internal/timers:567:9)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-04-20 15:10:41"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-20 15:13:21"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-20 15:29:56"}
+{"level":"error","message":"MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Unknown"},"service":"netlabx-backend","stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017\n    at _handleConnectionErrors (C:\\Users\\Heli\\Documents\\Intelligent Network Simulation and Training Platform\\node_modules\\mongoose\\lib\\connection.js:816:11)\n    at NativeConnection.openUri (C:\\Users\\Heli\\Documents\\Intelligent Network Simulation and Training Platform\\node_modules\\mongoose\\lib\\connection.js:791:11)\n    at runNextTicks (node:internal/process/task_queues:65:5)\n    at listOnTimeout (node:internal/timers:567:9)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-04-20 15:30:26"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-20 12:50:46"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-20 12:50:49"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-20 12:53:34"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-20 12:53:34"}
+{"level":"error","message":"Get lab error: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Lab\"","service":"netlabx-backend","timestamp":"2026-04-20 13:04:47"}
+{"level":"info","message":"New user registered: matarasteve@gmail.com","service":"netlabx-backend","timestamp":"2026-04-20 13:37:37"}
+{"level":"error","message":"Get lab error: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Lab\"","service":"netlabx-backend","timestamp":"2026-04-20 13:43:54"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-21 06:00:57"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-21 06:00:57"}
+{"level":"error","message":"Get lab error: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Lab\"","service":"netlabx-backend","timestamp":"2026-04-21 06:08:28"}
+{"level":"info","message":"New user registered: matarasteve15@gmail.com","service":"netlabx-backend","timestamp":"2026-04-21 06:38:45"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-21 06:41:16"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-21 06:41:16"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-21 06:55:51"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-21 06:55:51"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-21 06:56:46"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-21 06:56:46"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-21 06:58:07"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-21 06:58:07"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-21 08:12:39"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-21 08:12:40"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-21 11:24:49"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-21 11:24:49"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-21 11:32:20"}
+{"level":"error","message":"MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Unknown"},"service":"netlabx-backend","stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017\n    at _handleConnectionErrors (C:\\Users\\Heli\\Documents\\Intelligent Network Simulation and Training Platform\\node_modules\\mongoose\\lib\\connection.js:816:11)\n    at NativeConnection.openUri (C:\\Users\\Heli\\Documents\\Intelligent Network Simulation and Training Platform\\node_modules\\mongoose\\lib\\connection.js:791:11)\n    at runNextTicks (node:internal/process/task_queues:65:5)\n    at listOnTimeout (node:internal/timers:567:9)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-04-21 11:32:50"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-21 11:36:54"}
+{"level":"error","message":"MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Unknown"},"service":"netlabx-backend","stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017\n    at _handleConnectionErrors (C:\\Users\\Heli\\Documents\\Intelligent Network Simulation and Training Platform\\node_modules\\mongoose\\lib\\connection.js:816:11)\n    at NativeConnection.openUri (C:\\Users\\Heli\\Documents\\Intelligent Network Simulation and Training Platform\\node_modules\\mongoose\\lib\\connection.js:791:11)\n    at runNextTicks (node:internal/process/task_queues:65:5)\n    at listOnTimeout (node:internal/timers:567:9)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-04-21 11:37:24"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-21 12:37:48"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-21 12:37:48"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-21 12:46:12"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-21 12:46:12"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-21 12:49:09"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-21 12:49:09"}
+{"level":"error","message":"Registration error: User validation failed: username: Username is required","service":"netlabx-backend","timestamp":"2026-04-21 14:36:59"}
+{"level":"error","message":"Registration error: User validation failed: username: Username is required","service":"netlabx-backend","timestamp":"2026-04-21 14:45:46"}
+{"level":"error","message":"Registration error: User validation failed: username: Username is required","service":"netlabx-backend","timestamp":"2026-04-21 14:46:59"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-21 14:49:57"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-21 14:49:57"}
+{"level":"error","message":"Registration error: User validation failed: username: Username is required","service":"netlabx-backend","timestamp":"2026-04-21 14:52:14"}
+{"level":"error","message":"Registration error: User validation failed: username: Username is required","service":"netlabx-backend","timestamp":"2026-04-21 14:55:19"}
+{"level":"error","message":"Registration error: User validation failed: username: Username is required","service":"netlabx-backend","timestamp":"2026-04-21 15:09:37"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-21 15:13:15"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-21 15:13:15"}
+{"level":"error","message":"Registration error: User validation failed: username: Username is required","service":"netlabx-backend","timestamp":"2026-04-21 15:15:27"}
+{"level":"error","message":"Registration error: User validation failed: username: Username is required","service":"netlabx-backend","timestamp":"2026-04-21 15:17:25"}
+{"level":"error","message":"Registration error: User validation failed: username: Username is required","service":"netlabx-backend","timestamp":"2026-04-21 15:19:32"}
+{"level":"error","message":"Registration error: User validation failed: username: Username is required","service":"netlabx-backend","timestamp":"2026-04-21 15:23:58"}
+{"level":"info","message":"New user registered: test2@test.com","service":"netlabx-backend","timestamp":"2026-04-21 15:24:09"}
+{"level":"info","message":"User logged in: test2@test.com","service":"netlabx-backend","timestamp":"2026-04-21 15:30:28"}
+{"level":"info","message":"User logged in: test2@test.com","service":"netlabx-backend","timestamp":"2026-04-21 15:35:55"}
+{"level":"info","message":"User logged in: test2@test.com","service":"netlabx-backend","timestamp":"2026-04-21 15:40:03"}
+{"level":"info","message":"User logged in: test2@test.com","service":"netlabx-backend","timestamp":"2026-04-21 16:12:27"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-21 16:24:44"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-21 16:24:44"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-21 16:42:05"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-21 16:42:05"}
+{"level":"info","message":"User logged in: test2@test.com","service":"netlabx-backend","timestamp":"2026-04-21 16:44:42"}
+{"level":"info","message":"User logged in: test2@test.com","service":"netlabx-backend","timestamp":"2026-04-21 16:54:45"}
+{"level":"info","message":"User logged in: test2@test.com","service":"netlabx-backend","timestamp":"2026-04-21 16:57:47"}
+{"level":"info","message":"Onboarding completed for user: test2@test.com","service":"netlabx-backend","timestamp":"2026-04-21 16:58:23"}
+{"level":"info","message":"User logged in: test2@test.com","service":"netlabx-backend","timestamp":"2026-04-21 16:59:43"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-23 08:34:04"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-23 08:34:04"}
+{"level":"error","message":"Get lab error: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Lab\"","service":"netlabx-backend","timestamp":"2026-04-23 08:35:14"}
+{"level":"error","message":"Get lab error: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Lab\"","service":"netlabx-backend","timestamp":"2026-04-23 08:53:03"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-23 09:03:10"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-23 09:03:10"}
+{"level":"error","message":"Registration error: User validation failed: profile.experienceLevel: `expert` is not a valid enum value for path `profile.experienceLevel`.","service":"netlabx-backend","timestamp":"2026-04-23 09:03:20"}
+{"level":"info","message":"New user registered: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 09:03:25"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 09:03:42"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 09:03:46"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-23 09:03:55"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-23 09:03:55"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 09:04:01"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-23 09:05:44"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-23 09:05:44"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 09:06:04"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-23 09:06:22"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-23 09:06:22"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 09:06:28"}
+{"level":"info","message":"Batch upload - Lab created: Basic IP Configuration","service":"netlabx-backend","timestamp":"2026-04-23 09:06:28"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-23 09:09:45"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-23 09:09:45"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 09:11:00"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 09:16:10"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 09:16:37"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 09:17:02"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 09:18:40"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-23 09:23:34"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-23 09:23:34"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 09:28:55"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-23 09:29:25"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-23 09:29:25"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 09:30:59"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 09:36:00"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-23 09:43:56"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-23 09:43:56"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-23 09:48:27"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-23 09:48:27"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 09:50:14"}
+{"level":"info","message":"File uploaded: 02 (Optional) Fusion Splicing Optical Fibers.docx by admin","service":"netlabx-backend","timestamp":"2026-04-23 09:54:03"}
+{"level":"info","message":"File uploaded: 01 (Optional) Preparing and Testing Network Jumpers.docx by admin","service":"netlabx-backend","timestamp":"2026-04-23 09:54:03"}
+{"level":"info","message":"File uploaded: 01 (Compulsory) Ethernet Basics and VLAN Configuration.docx by admin","service":"netlabx-backend","timestamp":"2026-04-23 09:54:03"}
+{"level":"info","message":"File uploaded: 01 (Compulsory) Spanning Tree.pdf by admin","service":"netlabx-backend","timestamp":"2026-04-23 09:54:04"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-23 09:56:00"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-23 09:56:00"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 10:02:37"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-23 10:04:47"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-23 10:04:47"}
+{"level":"info","message":"User connected: SYu1YeMjyy_InLdVAAAB","service":"netlabx-backend","timestamp":"2026-04-23 10:04:52"}
+{"level":"info","message":"User disconnected: SYu1YeMjyy_InLdVAAAB","service":"netlabx-backend","timestamp":"2026-04-23 10:05:49"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-23 10:10:39"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-23 10:10:39"}
+{"level":"info","message":"User connected: rjW9OBcxf0m7b37nAAAB","service":"netlabx-backend","timestamp":"2026-04-23 10:11:06"}
+{"level":"info","message":"User disconnected: rjW9OBcxf0m7b37nAAAB","service":"netlabx-backend","timestamp":"2026-04-23 10:11:06"}
+{"level":"info","message":"User connected: pyKhzNjbjCkzvfZnAAAD","service":"netlabx-backend","timestamp":"2026-04-23 10:11:06"}
+{"level":"info","message":"User disconnected: pyKhzNjbjCkzvfZnAAAD","service":"netlabx-backend","timestamp":"2026-04-23 10:11:09"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 10:11:18"}
+{"level":"info","message":"User connected: mGQo49CwU0zyAPPBAAAF","service":"netlabx-backend","timestamp":"2026-04-23 10:11:18"}
+{"level":"info","message":"File uploaded: 01 (Compulsory) Spanning Tree.docx by admin","service":"netlabx-backend","timestamp":"2026-04-23 10:11:39"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-23 10:16:29"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-23 10:16:29"}
+{"level":"info","message":"User connected: 5zXCC09IQ5krFxOIAAAB","service":"netlabx-backend","timestamp":"2026-04-23 10:16:31"}
+{"level":"info","message":"User disconnected: 5zXCC09IQ5krFxOIAAAB","service":"netlabx-backend","timestamp":"2026-04-23 10:17:35"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-23 10:19:09"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-23 10:19:09"}
+{"level":"info","message":"User connected: Ya09phlAGn-Jd3ueAAAC","service":"netlabx-backend","timestamp":"2026-04-23 10:21:06"}
+{"level":"info","message":"User disconnected: Ya09phlAGn-Jd3ueAAAC","service":"netlabx-backend","timestamp":"2026-04-23 10:21:10"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 10:21:18"}
+{"level":"info","message":"User connected: U4kmEC4D7MNsR2VWAAAE","service":"netlabx-backend","timestamp":"2026-04-23 10:21:18"}
+{"level":"info","message":"User disconnected: U4kmEC4D7MNsR2VWAAAE","service":"netlabx-backend","timestamp":"2026-04-23 10:25:27"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 10:26:08"}
+{"level":"info","message":"User connected: -GyjrwIhfE2sGjs4AAAG","service":"netlabx-backend","timestamp":"2026-04-23 10:26:08"}
+{"level":"info","message":"User disconnected: -GyjrwIhfE2sGjs4AAAG","service":"netlabx-backend","timestamp":"2026-04-23 10:32:58"}
+{"level":"info","message":"User connected: UjY4fMAEHuSvIuCjAAAI","service":"netlabx-backend","timestamp":"2026-04-23 10:32:58"}
+{"level":"info","message":"User disconnected: UjY4fMAEHuSvIuCjAAAI","service":"netlabx-backend","timestamp":"2026-04-23 10:32:58"}
+{"level":"info","message":"User connected: vyOaNz5pfLSJ2of0AAAK","service":"netlabx-backend","timestamp":"2026-04-23 10:32:58"}
+{"level":"info","message":"User disconnected: vyOaNz5pfLSJ2of0AAAK","service":"netlabx-backend","timestamp":"2026-04-23 10:33:02"}
+{"level":"info","message":"User connected: rzBcQqbPXdnf4EZDAAAN","service":"netlabx-backend","timestamp":"2026-04-23 10:33:03"}
+{"level":"info","message":"User disconnected: rzBcQqbPXdnf4EZDAAAN","service":"netlabx-backend","timestamp":"2026-04-23 10:36:23"}
+{"level":"info","message":"User connected: XjrCNUh9HqwN3TUDAAAP","service":"netlabx-backend","timestamp":"2026-04-23 10:36:24"}
+{"level":"info","message":"User disconnected: XjrCNUh9HqwN3TUDAAAP","service":"netlabx-backend","timestamp":"2026-04-23 10:36:24"}
+{"level":"info","message":"User connected: x7u1X92bbnkqdSCQAAAR","service":"netlabx-backend","timestamp":"2026-04-23 10:36:24"}
+{"level":"info","message":"User connected: 4UJ6ehV7FsvZ8LI1AAAT","service":"netlabx-backend","timestamp":"2026-04-23 10:44:14"}
+{"level":"info","message":"User disconnected: 4UJ6ehV7FsvZ8LI1AAAT","service":"netlabx-backend","timestamp":"2026-04-23 10:44:15"}
+{"level":"info","message":"User connected: slWqMYoL_jliZl43AAAV","service":"netlabx-backend","timestamp":"2026-04-23 10:44:15"}
+{"level":"info","message":"User disconnected: slWqMYoL_jliZl43AAAV","service":"netlabx-backend","timestamp":"2026-04-23 10:44:20"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 10:47:14"}
+{"level":"info","message":"User connected: ZDGk-88DbDyivq6fAAAX","service":"netlabx-backend","timestamp":"2026-04-23 10:47:14"}
+{"level":"info","message":"User disconnected: ZDGk-88DbDyivq6fAAAX","service":"netlabx-backend","timestamp":"2026-04-23 10:56:45"}
+{"level":"error","message":"Auth middleware error: jwt malformed","service":"netlabx-backend","timestamp":"2026-04-23 11:07:49"}
+{"level":"error","message":"Auth middleware error: jwt malformed","service":"netlabx-backend","timestamp":"2026-04-23 11:08:04"}
+{"level":"info","message":"User disconnected: x7u1X92bbnkqdSCQAAAR","service":"netlabx-backend","timestamp":"2026-04-23 11:12:12"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 11:12:15"}
+{"level":"info","message":"User connected: FZ2BGayiuWYXolOHAAAZ","service":"netlabx-backend","timestamp":"2026-04-23 11:12:15"}
+{"level":"info","message":"User connected: bxqPPoSsaKEW11gKAAAb","service":"netlabx-backend","timestamp":"2026-04-23 11:33:41"}
+{"level":"info","message":"User disconnected: bxqPPoSsaKEW11gKAAAb","service":"netlabx-backend","timestamp":"2026-04-23 11:33:41"}
+{"level":"info","message":"User connected: 3mdvN-3iEWPXNP1_AAAd","service":"netlabx-backend","timestamp":"2026-04-23 11:33:41"}
+{"level":"info","message":"User disconnected: FZ2BGayiuWYXolOHAAAZ","service":"netlabx-backend","timestamp":"2026-04-23 11:33:44"}
+{"level":"info","message":"User disconnected: 3mdvN-3iEWPXNP1_AAAd","service":"netlabx-backend","timestamp":"2026-04-23 11:33:47"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 11:33:56"}
+{"level":"info","message":"User connected: erZFpwCzu55wP5HhAAAf","service":"netlabx-backend","timestamp":"2026-04-23 11:33:56"}
+{"level":"info","message":"User disconnected: erZFpwCzu55wP5HhAAAf","service":"netlabx-backend","timestamp":"2026-04-23 11:45:18"}
+{"level":"info","message":"User connected: _BumJfZaMy8Y7sqjAAAi","service":"netlabx-backend","timestamp":"2026-04-23 11:45:19"}
+{"level":"info","message":"User disconnected: _BumJfZaMy8Y7sqjAAAi","service":"netlabx-backend","timestamp":"2026-04-23 11:45:20"}
+{"level":"info","message":"User connected: 7M2FhKgWB8dNH1P3AAAk","service":"netlabx-backend","timestamp":"2026-04-23 11:45:20"}
+{"level":"info","message":"User disconnected: 7M2FhKgWB8dNH1P3AAAk","service":"netlabx-backend","timestamp":"2026-04-23 11:45:20"}
+{"level":"info","message":"User connected: kIL-wOzvqFCal2KkAAAm","service":"netlabx-backend","timestamp":"2026-04-23 11:45:20"}
+{"level":"info","message":"User disconnected: kIL-wOzvqFCal2KkAAAm","service":"netlabx-backend","timestamp":"2026-04-23 11:55:30"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 11:56:24"}
+{"level":"info","message":"User connected: l5opbliweieiRWrHAAAo","service":"netlabx-backend","timestamp":"2026-04-23 11:56:24"}
+{"level":"info","message":"User disconnected: l5opbliweieiRWrHAAAo","service":"netlabx-backend","timestamp":"2026-04-23 12:11:55"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 12:13:57"}
+{"level":"info","message":"User connected: bGYvVAQKlGv2SBsDAAAq","service":"netlabx-backend","timestamp":"2026-04-23 12:13:57"}
+{"level":"info","message":"User disconnected: bGYvVAQKlGv2SBsDAAAq","service":"netlabx-backend","timestamp":"2026-04-23 12:14:04"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 12:17:05"}
+{"level":"info","message":"User connected: 5uo8gHIgeFjl9cODAAAs","service":"netlabx-backend","timestamp":"2026-04-23 12:17:05"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-23 12:22:19"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-23 12:22:19"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 12:22:39"}
+{"level":"info","message":"User connected: 1VUkjC0IWUP-zj2WAAAB","service":"netlabx-backend","timestamp":"2026-04-23 12:22:40"}
+{"level":"info","message":"User disconnected: 1VUkjC0IWUP-zj2WAAAB","service":"netlabx-backend","timestamp":"2026-04-23 12:31:49"}

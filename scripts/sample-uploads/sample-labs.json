@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Basic IP Configuration",
+    "description": "Configure IP addresses on network devices",
+    "category": "routing",
+    "difficulty": "beginner",
+    "duration": 30,
+    "objectives": [
+      "Configure IP addresses",
+      "Verify connectivity",
+      "Understand subnetting"
+    ],
+    "prerequisites": [
+      "Basic networking knowledge"
+    ],
+    "topology": {
+      "type": "star",
+      "devices": [
+        {
+          "id": "router1",
+          "name": "Main Router",
+          "type": "router",
+          "vendor": "cisco",
+          "interfaces": [
+            {
+              "name": "GigabitEthernet0/0",
+              "ipAddress": "192.168.1.1",
+              "subnetMask": "255.255.255.0",
+              "status": "up"
+            }
+          ],
+          "configuration": ""
+        }
+      ],
+      "connections": []
+    },
+    "tasks": [
+      {
+        "id": "task1",
+        "title": "Configure Interface",
+        "description": "Configure router interface with IP address",
+        "type": "configuration",
+        "points": 20,
+        "commands": [
+          {
+            "command": "show ip interface brief",
+            "expectedOutput": "192.168.1.1",
+            "validationType": "contains"
+          }
+        ],
+        "hints": [
+          {
+            "level": 1,
+            "text": "Use interface configuration mode"
+          }
+        ]
+      }
+    ],
+    "faults": [],
+    "solution": {
+      "steps": [
+        {
+          "step": 1,
+          "description": "Configure interface",
+          "commands": [
+            "configure terminal",
+            "interface GigabitEthernet0/0",
+            "ip address 192.168.1.1 255.255.255.0",
+            "no shutdown"
+          ],
+          "verification": "Interface should be up with IP address"
+        }
+      ],
+      "explanation": "Basic IP configuration on router interface"
+    },
+    "tags": [
+      "ip",
+      "configuration",
+      "basic"
+    ],
+    "isActive": true
+  }
+]

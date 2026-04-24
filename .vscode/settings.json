@@ -1,0 +1,11 @@
+{
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.env.windows": {
+    "NODE_ENV": "development"
+  },
+  "debug.node.autoAttach": "on",
+  "debug.terminal.clearBeforeReusing": true,
+  "console.log": true,
+  "debug.onTaskErrors": "debugAnyway"
+}
