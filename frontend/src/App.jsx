@@ -18,7 +18,10 @@ import DashboardPage from './pages/DashboardPage'
 import ProfilePage from './pages/ProfilePage'
 import VerifyEmailPage from './pages/VerifyEmailPage'
 import OnboardingPage from './pages/OnboardingPage'
+import CurriculumPage from './pages/CurriculumPage'
 import AdminDashboardPage from './pages/admin/AdminDashboardPage'
+import CreateLabPage from './pages/admin/CreateLabPage'
+import CreateCurriculumPage from './pages/admin/CreateCurriculumPage'
 import BatchUploadPage from './pages/BatchUploadPage'
 import AuthPage from './pages/AuthPage'
 
@@ -35,7 +38,7 @@ function App() {
   // Initialize Socket.IO connection
   useEffect(() => {
     if (user) {
-      const newSocket = io('http://localhost:5000', {
+      const newSocket = io('http://localhost:5001', {
         auth: {
           token: getToken()
         }
@@ -87,6 +90,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/labs" element={<LabsPage />} />
           <Route path="/labs/:id" element={<LabDetailPage />} />
+          <Route path="/curriculum" element={<CurriculumPage />} />
           <Route 
             path="/simulation/:labId" 
             element={
@@ -158,6 +162,34 @@ function App() {
                 </div>
               ) : user ? (
                 <AdminDashboardPage />
+              ) : (
+                <Navigate to="/auth" replace />
+              )
+            } 
+          />
+          <Route 
+            path="/admin/create-lab" 
+            element={
+              authLoading ? (
+                <div className="min-h-screen bg-dark-bg flex items-center justify-center">
+                  <LoadingSpinner size="large" />
+                </div>
+              ) : user ? (
+                <CreateLabPage />
+              ) : (
+                <Navigate to="/auth" replace />
+              )
+            } 
+          />
+          <Route 
+            path="/admin/create-curriculum" 
+            element={
+              authLoading ? (
+                <div className="min-h-screen bg-dark-bg flex items-center justify-center">
+                  <LoadingSpinner size="large" />
+                </div>
+              ) : user ? (
+                <CreateCurriculumPage />
               ) : (
                 <Navigate to="/auth" replace />
               )

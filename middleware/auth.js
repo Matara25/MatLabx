@@ -20,8 +20,9 @@ const protect = async (req, res, next) => {
       console.log("🔥 AUTH MIDDLEWARE - Token verified, decoded id:", decoded.id);
 
       // Get user from the token
-      req.user = await User.findById(decoded.id).select('-password');
-      console.log("🔥 AUTH MIDDLEWARE - User found:", req.user ? req.user.username : "null");
+      const user = await User.findById(decoded.id).select('-password');
+      req.user = user;
+      console.log("AUTH SET req.user =", req.user.username);
 
       if (!req.user) {
         return res.status(401).json({
@@ -39,6 +40,8 @@ const protect = async (req, res, next) => {
 
       next();
     } catch (error) {
+      console.error("🔥 AUTH MIDDLEWARE - JWT ERROR:", error);
+      console.error("🔥 AUTH MIDDLEWARE - ERROR MESSAGE:", error.message);
       logger.error(`Auth middleware error: ${error.message}`);
       return res.status(401).json({
         success: false,

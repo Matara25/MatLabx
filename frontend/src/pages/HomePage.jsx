@@ -211,17 +211,34 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {features.map((feature, index) => {
               const Icon = feature.icon
+              const isCurriculum = feature.title === 'Comprehensive Curriculum'
               return (
-                <div key={index} className="bg-dark-surface p-8 rounded-xl border border-dark-border hover:border-primary-500/50 transition-all duration-300 hover:scale-105">
-                  <div className={`w-16 h-16 bg-${feature.color}-500/20 rounded-lg flex items-center justify-center mb-6`}>
-                    <Icon className={`w-8 h-8 text-${feature.color}-400`} />
-                  </div>
-                  <h3 className="text-xl font-semibold text-dark-text mb-3">
-                    {feature.title}
-                  </h3>
-                  <p className="text-dark-muted leading-relaxed">
-                    {feature.description}
-                  </p>
+                <div key={index} className={`bg-dark-surface p-8 rounded-xl border border-dark-border hover:border-primary-500/50 transition-all duration-300 hover:scale-105 ${isCurriculum ? 'cursor-pointer' : ''}`}>
+                  {isCurriculum ? (
+                    <Link to="/curriculum" className="block">
+                      <div className={`w-16 h-16 bg-${feature.color}-500/20 rounded-lg flex items-center justify-center mb-6`}>
+                        <Icon className={`w-8 h-8 text-${feature.color}-400`} />
+                      </div>
+                      <h3 className="text-xl font-semibold text-dark-text mb-3">
+                        {feature.title}
+                      </h3>
+                      <p className="text-dark-muted leading-relaxed">
+                        {feature.description}
+                      </p>
+                    </Link>
+                  ) : (
+                    <>
+                      <div className={`w-16 h-16 bg-${feature.color}-500/20 rounded-lg flex items-center justify-center mb-6`}>
+                        <Icon className={`w-8 h-8 text-${feature.color}-400`} />
+                      </div>
+                      <h3 className="text-xl font-semibold text-dark-text mb-3">
+                        {feature.title}
+                      </h3>
+                      <p className="text-dark-muted leading-relaxed">
+                        {feature.description}
+                      </p>
+                    </>
+                  )}
                 </div>
               )
             })}

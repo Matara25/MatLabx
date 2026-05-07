@@ -191,3 +191,513 @@
 {"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-23 12:22:39"}
 {"level":"info","message":"User connected: 1VUkjC0IWUP-zj2WAAAB","service":"netlabx-backend","timestamp":"2026-04-23 12:22:40"}
 {"level":"info","message":"User disconnected: 1VUkjC0IWUP-zj2WAAAB","service":"netlabx-backend","timestamp":"2026-04-23 12:31:49"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-25 10:58:08"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-25 10:58:08"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-25 10:59:33"}
+{"level":"info","message":"User connected: A0gmq6SQjHCumyjMAAAB","service":"netlabx-backend","timestamp":"2026-04-25 10:59:33"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-25 11:11:50"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-25 11:11:50"}
+{"level":"info","message":"User connected: Nk2DmN6nkUBgccAQAAAB","service":"netlabx-backend","timestamp":"2026-04-25 11:11:50"}
+{"level":"info","message":"User disconnected: Nk2DmN6nkUBgccAQAAAB","service":"netlabx-backend","timestamp":"2026-04-25 11:12:38"}
+{"level":"info","message":"User connected: vtNiCXcRVsfVa7YWAAAD","service":"netlabx-backend","timestamp":"2026-04-25 11:12:40"}
+{"level":"info","message":"User disconnected: vtNiCXcRVsfVa7YWAAAD","service":"netlabx-backend","timestamp":"2026-04-25 11:12:40"}
+{"level":"info","message":"User connected: 5eOrnkkLUu5Pzo3XAAAF","service":"netlabx-backend","timestamp":"2026-04-25 11:12:40"}
+{"level":"error","message":"File upload error: Cannot read properties of undefined (reading 'username')","service":"netlabx-backend","timestamp":"2026-04-25 11:12:55"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-25 11:17:32"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-25 11:17:32"}
+{"level":"info","message":"User connected: p-fdZRYlbzjFPrDSAAAB","service":"netlabx-backend","timestamp":"2026-04-25 11:17:33"}
+{"level":"info","message":"User disconnected: p-fdZRYlbzjFPrDSAAAB","service":"netlabx-backend","timestamp":"2026-04-25 11:18:28"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-25 11:20:05"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-25 11:20:05"}
+{"level":"info","message":"User connected: sn3qfvTxM4FqAECaAAAC","service":"netlabx-backend","timestamp":"2026-04-25 11:20:28"}
+{"level":"error","message":"File upload error: Cannot read properties of undefined (reading 'username')","service":"netlabx-backend","timestamp":"2026-04-25 11:20:39"}
+{"level":"info","message":"User disconnected: sn3qfvTxM4FqAECaAAAC","service":"netlabx-backend","timestamp":"2026-04-25 11:26:26"}
+{"level":"info","message":"User connected: PsviZQKBWC9IOKvKAAAF","service":"netlabx-backend","timestamp":"2026-04-25 11:26:27"}
+{"level":"info","message":"User disconnected: PsviZQKBWC9IOKvKAAAF","service":"netlabx-backend","timestamp":"2026-04-25 11:26:29"}
+{"level":"info","message":"User connected: uKWBJHXwATMyTJv2AAAH","service":"netlabx-backend","timestamp":"2026-04-25 11:26:29"}
+{"level":"info","message":"User disconnected: uKWBJHXwATMyTJv2AAAH","service":"netlabx-backend","timestamp":"2026-04-25 11:26:29"}
+{"level":"info","message":"User connected: 5ilcKKSXvfMLCoVOAAAJ","service":"netlabx-backend","timestamp":"2026-04-25 11:26:29"}
+{"level":"error","message":"File upload error: Cannot read properties of undefined (reading 'username')","service":"netlabx-backend","timestamp":"2026-04-25 11:26:37"}
+{"level":"error","message":"File upload error: Cannot read properties of undefined (reading 'username')","service":"netlabx-backend","timestamp":"2026-04-25 11:26:56"}
+{"level":"info","message":"User disconnected: 5ilcKKSXvfMLCoVOAAAJ","service":"netlabx-backend","timestamp":"2026-04-25 11:30:21"}
+{"level":"info","message":"User connected: Sbab1vrXCPDrb5IcAAAL","service":"netlabx-backend","timestamp":"2026-04-25 11:30:21"}
+{"level":"info","message":"User disconnected: Sbab1vrXCPDrb5IcAAAL","service":"netlabx-backend","timestamp":"2026-04-25 11:30:21"}
+{"level":"info","message":"User connected: 6WkRhfikev7iAPmTAAAN","service":"netlabx-backend","timestamp":"2026-04-25 11:30:21"}
+{"level":"error","message":"File upload error: Cannot read properties of undefined (reading 'username')","service":"netlabx-backend","timestamp":"2026-04-25 11:30:25"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-25 11:32:00"}
+{"level":"info","message":"User connected: jfWz9jP_W_26OAu1AAAB","service":"netlabx-backend","timestamp":"2026-04-25 11:32:00"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-25 11:32:00"}
+{"level":"info","message":"User disconnected: jfWz9jP_W_26OAu1AAAB","service":"netlabx-backend","timestamp":"2026-04-25 11:32:27"}
+{"level":"info","message":"User connected: TF_FTSLDH0h90f2XAAAD","service":"netlabx-backend","timestamp":"2026-04-25 11:32:28"}
+{"level":"info","message":"User disconnected: TF_FTSLDH0h90f2XAAAD","service":"netlabx-backend","timestamp":"2026-04-25 11:32:28"}
+{"level":"info","message":"User connected: 2HxvBrzSsQOZiX5LAAAF","service":"netlabx-backend","timestamp":"2026-04-25 11:32:28"}
+{"level":"info","message":"File uploaded: sample-labs.json by admin","service":"netlabx-backend","timestamp":"2026-04-25 11:32:33"}
+{"level":"info","message":"File uploaded: Lab Guide-20260312T131251Z-1-001.zip by admin","service":"netlabx-backend","timestamp":"2026-04-25 11:33:14"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-25 11:46:30"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-25 11:46:30"}
+{"level":"info","message":"User connected: XluKt6sB847uH4GGAAAB","service":"netlabx-backend","timestamp":"2026-04-25 11:46:35"}
+{"level":"info","message":"User disconnected: XluKt6sB847uH4GGAAAB","service":"netlabx-backend","timestamp":"2026-04-25 11:47:14"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-25 11:47:49"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-25 11:47:49"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-25 11:49:44"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-25 11:49:44"}
+{"level":"info","message":"User connected: hzSHsMMHD4JTOjdHAAAB","service":"netlabx-backend","timestamp":"2026-04-25 11:49:45"}
+{"level":"info","message":"User disconnected: hzSHsMMHD4JTOjdHAAAB","service":"netlabx-backend","timestamp":"2026-04-25 11:49:45"}
+{"level":"info","message":"User connected: UTCHP1I5XGeLncEGAAAD","service":"netlabx-backend","timestamp":"2026-04-25 11:49:45"}
+{"level":"info","message":"User disconnected: UTCHP1I5XGeLncEGAAAD","service":"netlabx-backend","timestamp":"2026-04-25 11:49:55"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-25 11:50:00"}
+{"level":"info","message":"User connected: Id0iWnUwRjy70b4IAAAF","service":"netlabx-backend","timestamp":"2026-04-25 11:50:00"}
+{"level":"info","message":"Bulk file uploaded: Lab Guide-20260312T131251Z-1-001.zip by admin","service":"netlabx-backend","timestamp":"2026-04-25 11:50:25"}
+{"level":"info","message":"Bulk file uploaded: Lab Guide-20260312T131251Z-1-001.zip by admin","service":"netlabx-backend","timestamp":"2026-04-25 11:50:33"}
+{"level":"info","message":"Bulk file uploaded: sample-labs.json by admin","service":"netlabx-backend","timestamp":"2026-04-25 11:50:40"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-25 11:50:41"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-25 11:50:41"}
+{"level":"info","message":"User connected: 4khl4kPiHnzhwhkYAAAB","service":"netlabx-backend","timestamp":"2026-04-25 11:50:41"}
+{"level":"info","message":"Bulk file uploaded: sample-labs.json by admin","service":"netlabx-backend","timestamp":"2026-04-25 11:53:02"}
+{"level":"info","message":"Bulk file uploaded: Exam Dumps-20260312T131258Z-1-001.zip by admin","service":"netlabx-backend","timestamp":"2026-04-25 11:53:02"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-25 11:53:02"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-25 11:53:02"}
+{"level":"info","message":"User connected: vH48zjQrPngCvIE_AAAB","service":"netlabx-backend","timestamp":"2026-04-25 11:53:03"}
+{"level":"info","message":"Bulk file uploaded: sample-labs.json by admin","service":"netlabx-backend","timestamp":"2026-04-25 11:53:04"}
+{"level":"info","message":"Bulk file uploaded: Exam Dumps-20260312T131258Z-1-001.zip by admin","service":"netlabx-backend","timestamp":"2026-04-25 11:53:04"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-25 11:53:05"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-25 11:53:05"}
+{"level":"info","message":"Bulk file uploaded: sample-labs.json by admin","service":"netlabx-backend","timestamp":"2026-04-25 11:53:05"}
+{"level":"info","message":"Bulk file uploaded: Exam Dumps-20260312T131258Z-1-001.zip by admin","service":"netlabx-backend","timestamp":"2026-04-25 11:53:05"}
+{"level":"info","message":"User connected: kAuCsDx1hLsW6eJMAAAB","service":"netlabx-backend","timestamp":"2026-04-25 11:53:06"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-25 11:53:06"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-25 11:53:06"}
+{"level":"info","message":"Bulk file uploaded: sample-labs.json by admin","service":"netlabx-backend","timestamp":"2026-04-25 11:53:07"}
+{"level":"info","message":"Bulk file uploaded: Exam Dumps-20260312T131258Z-1-001.zip by admin","service":"netlabx-backend","timestamp":"2026-04-25 11:53:07"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-25 11:53:07"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-25 11:53:07"}
+{"level":"info","message":"User connected: KewmYh5L-Vdx_t9QAAAB","service":"netlabx-backend","timestamp":"2026-04-25 11:53:08"}
+{"level":"info","message":"User disconnected: KewmYh5L-Vdx_t9QAAAB","service":"netlabx-backend","timestamp":"2026-04-25 12:27:01"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-25 12:29:14"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-25 12:29:14"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-25 12:30:45"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-25 12:30:45"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-25 12:33:12"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-25 12:33:12"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-25 12:38:13"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-25 12:38:13"}
+{"level":"info","message":"User connected: djVAXu-5L-fAbYcaAAAB","service":"netlabx-backend","timestamp":"2026-04-25 12:42:05"}
+{"level":"info","message":"User disconnected: djVAXu-5L-fAbYcaAAAB","service":"netlabx-backend","timestamp":"2026-04-25 12:42:05"}
+{"level":"info","message":"User connected: nuP6YsEHvLUPgV24AAAD","service":"netlabx-backend","timestamp":"2026-04-25 12:42:05"}
+{"level":"info","message":"User disconnected: nuP6YsEHvLUPgV24AAAD","service":"netlabx-backend","timestamp":"2026-04-25 12:42:08"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-25 12:42:14"}
+{"level":"info","message":"User connected: jv29lCR5M3FbuoQEAAAF","service":"netlabx-backend","timestamp":"2026-04-25 12:42:14"}
+{"level":"info","message":"Bulk file uploaded: sample-labs.json by admin","service":"netlabx-backend","timestamp":"2026-04-25 12:42:21"}
+{"level":"info","message":"Bulk file uploaded: Lab Guide-20260312T131251Z-1-001.zip by admin","service":"netlabx-backend","timestamp":"2026-04-25 12:42:44"}
+{"level":"info","message":"Bulk file uploaded: Lecture Notes-20260312T131242Z-1-001.zip by admin","service":"netlabx-backend","timestamp":"2026-04-25 12:42:44"}
+{"level":"info","message":"User disconnected: jv29lCR5M3FbuoQEAAAF","service":"netlabx-backend","timestamp":"2026-04-25 12:43:11"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-25 12:43:34"}
+{"level":"info","message":"User connected: fpYNP3hF9l2rT6mwAAAH","service":"netlabx-backend","timestamp":"2026-04-25 12:43:34"}
+{"level":"info","message":"User disconnected: fpYNP3hF9l2rT6mwAAAH","service":"netlabx-backend","timestamp":"2026-04-25 12:43:52"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-25 12:45:19"}
+{"level":"info","message":"User connected: 6CCvN7iSClTDI9XEAAAJ","service":"netlabx-backend","timestamp":"2026-04-25 12:45:19"}
+{"level":"info","message":"User disconnected: 6CCvN7iSClTDI9XEAAAJ","service":"netlabx-backend","timestamp":"2026-04-25 13:02:20"}
+{"level":"info","message":"User connected: 2bu_mXfeXqUow0bEAAAL","service":"netlabx-backend","timestamp":"2026-04-25 13:07:38"}
+{"level":"info","message":"User disconnected: 2bu_mXfeXqUow0bEAAAL","service":"netlabx-backend","timestamp":"2026-04-25 13:07:38"}
+{"level":"info","message":"User connected: 9kEI7_DzFsZsxpjhAAAN","service":"netlabx-backend","timestamp":"2026-04-25 13:07:38"}
+{"level":"info","message":"User disconnected: 9kEI7_DzFsZsxpjhAAAN","service":"netlabx-backend","timestamp":"2026-04-25 13:09:42"}
+{"level":"info","message":"User connected: oY8LStXKe7MFU6RTAAAQ","service":"netlabx-backend","timestamp":"2026-04-25 13:09:42"}
+{"level":"info","message":"User disconnected: oY8LStXKe7MFU6RTAAAQ","service":"netlabx-backend","timestamp":"2026-04-25 13:09:50"}
+{"level":"info","message":"User connected: BxPOWmH3V-QkwjsNAAAT","service":"netlabx-backend","timestamp":"2026-04-25 13:09:50"}
+{"level":"info","message":"User disconnected: BxPOWmH3V-QkwjsNAAAT","service":"netlabx-backend","timestamp":"2026-04-25 13:09:51"}
+{"level":"info","message":"User connected: XYK9cE9AtNmjc19RAAAW","service":"netlabx-backend","timestamp":"2026-04-25 13:09:51"}
+{"level":"info","message":"User disconnected: XYK9cE9AtNmjc19RAAAW","service":"netlabx-backend","timestamp":"2026-04-25 13:12:51"}
+{"level":"info","message":"User connected: WTb78q_vMQmR7NKFAAAY","service":"netlabx-backend","timestamp":"2026-04-25 13:13:11"}
+{"level":"info","message":"User disconnected: WTb78q_vMQmR7NKFAAAY","service":"netlabx-backend","timestamp":"2026-04-25 13:13:42"}
+{"level":"info","message":"User connected: nJ5HH-xT3LPEm24hAAAa","service":"netlabx-backend","timestamp":"2026-04-25 13:13:42"}
+{"level":"info","message":"User disconnected: nJ5HH-xT3LPEm24hAAAa","service":"netlabx-backend","timestamp":"2026-04-25 13:13:50"}
+{"level":"info","message":"User connected: Hn3BMaaSEzviXPuqAAAc","service":"netlabx-backend","timestamp":"2026-04-25 13:13:50"}
+{"level":"info","message":"User disconnected: Hn3BMaaSEzviXPuqAAAc","service":"netlabx-backend","timestamp":"2026-04-25 13:25:09"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-25 13:25:18"}
+{"level":"info","message":"User connected: UfybfbNO2zV0uCgLAAAe","service":"netlabx-backend","timestamp":"2026-04-25 13:25:18"}
+{"level":"info","message":"User disconnected: UfybfbNO2zV0uCgLAAAe","service":"netlabx-backend","timestamp":"2026-04-25 13:27:31"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-25 13:30:37"}
+{"level":"info","message":"User connected: fTFryYiCQEYIM6tQAAAg","service":"netlabx-backend","timestamp":"2026-04-25 13:30:37"}
+{"level":"info","message":"Bulk file uploaded: Cloud-Based AI and IoT Soil Nutrient Intelligence System PROPOSAL.docx by admin","service":"netlabx-backend","timestamp":"2026-04-25 14:04:46"}
+{"level":"info","message":"User disconnected: fTFryYiCQEYIM6tQAAAg","service":"netlabx-backend","timestamp":"2026-04-25 14:04:56"}
+{"level":"error","message":"Get lab error: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Lab\"","service":"netlabx-backend","timestamp":"2026-04-25 14:06:57"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-25 14:07:52"}
+{"level":"info","message":"User connected: 1E6U9cbfjWT0OacnAAAi","service":"netlabx-backend","timestamp":"2026-04-25 14:07:52"}
+{"level":"info","message":"User disconnected: 1E6U9cbfjWT0OacnAAAi","service":"netlabx-backend","timestamp":"2026-04-25 14:21:39"}
+{"level":"info","message":"New user registered: wahome@vgg.com","service":"netlabx-backend","timestamp":"2026-04-25 14:23:27"}
+{"level":"info","message":"User logged in: wahome@vgg.com","service":"netlabx-backend","timestamp":"2026-04-25 14:24:12"}
+{"level":"info","message":"User connected: EFFzFhJn4JjD1sB_AAAk","service":"netlabx-backend","timestamp":"2026-04-25 14:24:12"}
+{"level":"info","message":"Onboarding completed for user: wahome@vgg.com","service":"netlabx-backend","timestamp":"2026-04-25 14:26:27"}
+{"level":"info","message":"User disconnected: EFFzFhJn4JjD1sB_AAAk","service":"netlabx-backend","timestamp":"2026-04-25 14:26:27"}
+{"level":"info","message":"User connected: JNVqhayWZL0vFpjSAAAm","service":"netlabx-backend","timestamp":"2026-04-25 14:26:27"}
+{"level":"info","message":"User disconnected: JNVqhayWZL0vFpjSAAAm","service":"netlabx-backend","timestamp":"2026-04-25 14:29:12"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 10:08:10"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 10:08:10"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 10:10:38"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 10:10:38"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 10:12:20"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 10:12:20"}
+{"level":"info","message":"Curriculum fetched: 0 items","service":"netlabx-backend","timestamp":"2026-04-27 10:13:05"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 10:17:04"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 10:17:04"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-27 10:18:22"}
+{"level":"info","message":"User connected: f1bNpC8_b8F030n1AAAB","service":"netlabx-backend","timestamp":"2026-04-27 10:18:22"}
+{"level":"info","message":"Bulk file uploaded: 01 Data Communication Network Basis.docx by admin","service":"netlabx-backend","timestamp":"2026-04-27 10:18:52"}
+{"level":"info","message":"Bulk file uploaded: 02 Network Reference Model.docx by admin","service":"netlabx-backend","timestamp":"2026-04-27 10:19:09"}
+{"level":"info","message":"Bulk file uploaded: 14 ACL Principles and Configuration.docx by admin","service":"netlabx-backend","timestamp":"2026-04-27 10:19:18"}
+{"level":"info","message":"Bulk file uploaded: 18 WAN Technologies.docx by admin","service":"netlabx-backend","timestamp":"2026-04-27 10:19:31"}
+{"level":"info","message":"Bulk file uploaded: 17 Network Services and Applications.docx by admin","service":"netlabx-backend","timestamp":"2026-04-27 10:19:31"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 10:24:31"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 10:24:31"}
+{"level":"info","message":"User connected: 9_RbO0ClxhGr3EKOAAAB","service":"netlabx-backend","timestamp":"2026-04-27 10:24:31"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 10:27:46"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 10:27:46"}
+{"level":"info","message":"User connected: OKsHIHyxGnk_7VVpAAAB","service":"netlabx-backend","timestamp":"2026-04-27 10:27:46"}
+{"level":"info","message":"User disconnected: OKsHIHyxGnk_7VVpAAAB","service":"netlabx-backend","timestamp":"2026-04-27 10:28:34"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 10:29:57"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 10:29:57"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-27 10:30:24"}
+{"level":"info","message":"User connected: sFG9fbG9oPW0bYZ2AAAB","service":"netlabx-backend","timestamp":"2026-04-27 10:30:24"}
+{"level":"info","message":"User disconnected: sFG9fbG9oPW0bYZ2AAAB","service":"netlabx-backend","timestamp":"2026-04-27 10:30:36"}
+{"level":"info","message":"Curriculum fetched: 0 items","service":"netlabx-backend","timestamp":"2026-04-27 10:30:41"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 10:31:26"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 10:31:26"}
+{"level":"info","message":"Curriculum fetched: 0 items","service":"netlabx-backend","timestamp":"2026-04-27 10:31:39"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 10:32:00"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 10:32:00"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 10:32:43"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 10:39:53"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 10:39:53"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 10:40:27"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 10:41:47"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 10:43:15"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 10:43:15"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 11:11:59"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 11:11:59"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 11:20:02"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 11:20:02"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 16:49:38"}
+{"level":"info","message":"Curriculum content requested: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-27 16:49:41"}
+{"level":"info","message":"Curriculum content requested: 01 Data Communication Network Basis-1777274332950-558678938","service":"netlabx-backend","timestamp":"2026-04-27 16:49:46"}
+{"level":"info","message":"Curriculum download requested: 01 (Compulsory) Spanning Tree-1776928299810-85228472","service":"netlabx-backend","timestamp":"2026-04-27 16:49:53"}
+{"level":"info","message":"Curriculum content requested: 02 (Optional) Fusion Splicing Optical Fibers-1776927243738-72193691","service":"netlabx-backend","timestamp":"2026-04-27 16:50:45"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 16:51:33"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 16:51:33"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 16:51:49"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 16:52:09"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 16:52:12"}
+{"level":"info","message":"Curriculum content requested: Cloud-Based AI and IoT Soil Nutrient Intelligence System PROPOSAL-1777115086312-116170681","service":"netlabx-backend","timestamp":"2026-04-27 16:52:14"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 16:53:09"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 16:53:09"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 16:53:27"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-27 16:56:56"}
+{"level":"info","message":"User connected: lHU9gPkrK2yuhNTlAAAB","service":"netlabx-backend","timestamp":"2026-04-27 16:56:56"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 16:57:04"}
+{"level":"info","message":"Curriculum content requested: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-27 16:57:06"}
+{"level":"info","message":"Curriculum content requested: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-27 16:57:10"}
+{"level":"info","message":"Curriculum content requested: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-27 16:57:24"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 16:58:55"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 16:58:55"}
+{"level":"info","message":"User connected: 3c4nEGWKbUOF_-VvAAAB","service":"netlabx-backend","timestamp":"2026-04-27 16:58:55"}
+{"level":"info","message":"User disconnected: 3c4nEGWKbUOF_-VvAAAB","service":"netlabx-backend","timestamp":"2026-04-27 16:59:06"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 16:59:07"}
+{"level":"info","message":"User connected: o3xPeSnqdrO8BNy3AAAE","service":"netlabx-backend","timestamp":"2026-04-27 16:59:07"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 16:59:16"}
+{"level":"info","message":"Curriculum content requested: Cloud-Based AI and IoT Soil Nutrient Intelligence System PROPOSAL-1777115086312-116170681","service":"netlabx-backend","timestamp":"2026-04-27 16:59:25"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 16:59:46"}
+{"level":"info","message":"User connected: aqqMFkkGaYBEFneyAAAG","service":"netlabx-backend","timestamp":"2026-04-27 16:59:46"}
+{"level":"info","message":"User disconnected: aqqMFkkGaYBEFneyAAAG","service":"netlabx-backend","timestamp":"2026-04-27 16:59:46"}
+{"level":"info","message":"User connected: VLuvBYglrkTw9tgYAAAI","service":"netlabx-backend","timestamp":"2026-04-27 16:59:46"}
+{"level":"info","message":"Curriculum content requested: 18 WAN Technologies-1777274371530-975797193","service":"netlabx-backend","timestamp":"2026-04-27 16:59:48"}
+{"level":"info","message":"User disconnected: VLuvBYglrkTw9tgYAAAI","service":"netlabx-backend","timestamp":"2026-04-27 16:59:52"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:01:24"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:01:35"}
+{"level":"info","message":"User connected: PcUlz2rhuErezBcxAAAL","service":"netlabx-backend","timestamp":"2026-04-27 17:01:35"}
+{"level":"info","message":"Curriculum content requested: 18 WAN Technologies-1777274371530-975797193","service":"netlabx-backend","timestamp":"2026-04-27 17:01:37"}
+{"level":"info","message":"Curriculum content requested: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-27 17:01:49"}
+{"level":"info","message":"Curriculum content requested: 01 (Compulsory) Spanning Tree-1776927244013-823616181","service":"netlabx-backend","timestamp":"2026-04-27 17:01:55"}
+{"level":"info","message":"Curriculum content requested: Cloud-Based AI and IoT Soil Nutrient Intelligence System PROPOSAL-1777115086312-116170681","service":"netlabx-backend","timestamp":"2026-04-27 17:03:12"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:03:25"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:03:25"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:03:43"}
+{"level":"info","message":"User connected: PfA2tCOtZvgfeqchAAAO","service":"netlabx-backend","timestamp":"2026-04-27 17:03:43"}
+{"level":"info","message":"Curriculum content requested: 18 WAN Technologies-1777274371530-975797193","service":"netlabx-backend","timestamp":"2026-04-27 17:03:44"}
+{"level":"info","message":"Curriculum content requested: 18 WAN Technologies-1777274371530-975797193","service":"netlabx-backend","timestamp":"2026-04-27 17:03:52"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 17:05:32"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 17:05:32"}
+{"level":"info","message":"User connected: k9ISJvddQXpuMVkLAAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:05:34"}
+{"level":"info","message":"User connected: I-D50lU08lAPyESLAAAD","service":"netlabx-backend","timestamp":"2026-04-27 17:05:35"}
+{"level":"info","message":"User connected: mrEqwUxSBrn4ctT0AAAF","service":"netlabx-backend","timestamp":"2026-04-27 17:05:36"}
+{"level":"error","message":"Error extracting .docx content: textContent.replace is not a function","service":"netlabx-backend","timestamp":"2026-04-27 17:05:55"}
+{"level":"info","message":"Curriculum content requested: Cloud-Based AI and IoT Soil Nutrient Intelligence System PROPOSAL-1777115086312-116170681","service":"netlabx-backend","timestamp":"2026-04-27 17:05:55"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 17:07:02"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 17:07:02"}
+{"level":"info","message":"User connected: O3myHKCezxa_QD2MAAAC","service":"netlabx-backend","timestamp":"2026-04-27 17:07:02"}
+{"level":"info","message":"User connected: UjESzyzHCyWQkIUxAAAD","service":"netlabx-backend","timestamp":"2026-04-27 17:07:02"}
+{"level":"info","message":"User connected: lqU_ZBE-4WLzsWaOAAAF","service":"netlabx-backend","timestamp":"2026-04-27 17:07:04"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 17:07:49"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 17:07:49"}
+{"level":"info","message":"User connected: V0HekhRgAaLEK4qSAAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:07:49"}
+{"level":"info","message":"User connected: a6JVbMPbzKnHJng1AAAD","service":"netlabx-backend","timestamp":"2026-04-27 17:07:51"}
+{"level":"info","message":"User connected: 91JgUAZP_neErPxvAAAF","service":"netlabx-backend","timestamp":"2026-04-27 17:07:52"}
+{"level":"info","message":"Successfully extracted .docx content for: Cloud-Based AI and IoT Soil Nutrient Intelligence System PROPOSAL-1777115086312-116170681","service":"netlabx-backend","timestamp":"2026-04-27 17:08:10"}
+{"level":"info","message":"Curriculum content requested: Cloud-Based AI and IoT Soil Nutrient Intelligence System PROPOSAL-1777115086312-116170681","service":"netlabx-backend","timestamp":"2026-04-27 17:08:10"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 17:09:00"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 17:09:00"}
+{"level":"info","message":"User connected: CzdFtvnnqEYpyzFAAAAD","service":"netlabx-backend","timestamp":"2026-04-27 17:09:02"}
+{"level":"info","message":"User connected: PExq4kWrk5k0KjKnAAAE","service":"netlabx-backend","timestamp":"2026-04-27 17:09:02"}
+{"level":"info","message":"User connected: hFfqnKv-7QwC-7HRAAAF","service":"netlabx-backend","timestamp":"2026-04-27 17:09:02"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:10:11"}
+{"level":"info","message":"User connected: cd7gxGCGKJ3ix1kXAAAI","service":"netlabx-backend","timestamp":"2026-04-27 17:10:11"}
+{"level":"info","message":"User connected: Rdo1M2N4EI48EPZYAAAK","service":"netlabx-backend","timestamp":"2026-04-27 17:11:56"}
+{"level":"info","message":"User disconnected: Rdo1M2N4EI48EPZYAAAK","service":"netlabx-backend","timestamp":"2026-04-27 17:11:56"}
+{"level":"info","message":"User connected: bQ6OUonfWqkcOd7BAAAM","service":"netlabx-backend","timestamp":"2026-04-27 17:11:56"}
+{"level":"info","message":"User disconnected: bQ6OUonfWqkcOd7BAAAM","service":"netlabx-backend","timestamp":"2026-04-27 17:12:00"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-27 17:12:05"}
+{"level":"info","message":"User connected: rrVqFexUPctdJfrnAAAO","service":"netlabx-backend","timestamp":"2026-04-27 17:12:05"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:12:11"}
+{"level":"info","message":"Successfully extracted .docx content for: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-27 17:12:13"}
+{"level":"info","message":"Curriculum content requested: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-27 17:12:13"}
+{"level":"info","message":"Successfully extracted .docx content for: 02 Network Reference Model-1777274349881-19120296","service":"netlabx-backend","timestamp":"2026-04-27 17:12:35"}
+{"level":"info","message":"Curriculum content requested: 02 Network Reference Model-1777274349881-19120296","service":"netlabx-backend","timestamp":"2026-04-27 17:12:35"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:14:34"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:14:34"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:14:41"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:14:41"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:14:53"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:14:53"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:15:02"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:15:02"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:16:23"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:16:23"}
+{"level":"info","message":"Successfully extracted .docx content for: 01 Data Communication Network Basis-1777274332950-558678938","service":"netlabx-backend","timestamp":"2026-04-27 17:20:45"}
+{"level":"info","message":"Curriculum content requested: 01 Data Communication Network Basis-1777274332950-558678938","service":"netlabx-backend","timestamp":"2026-04-27 17:20:45"}
+{"level":"info","message":"Curriculum download requested: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-27 17:21:26"}
+{"level":"info","message":"Curriculum download requested: 01 (Compulsory) Spanning Tree-1776927244013-823616181","service":"netlabx-backend","timestamp":"2026-04-27 17:21:46"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 17:23:43"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 17:23:43"}
+{"level":"info","message":"User connected: WpQz_1RZJqFkGfOlAAAC","service":"netlabx-backend","timestamp":"2026-04-27 17:23:43"}
+{"level":"info","message":"User connected: zRP8HgUjIEBnXHzDAAAD","service":"netlabx-backend","timestamp":"2026-04-27 17:23:43"}
+{"level":"info","message":"User connected: MpcqypdAQJsr78P5AAAG","service":"netlabx-backend","timestamp":"2026-04-27 17:23:44"}
+{"level":"info","message":"User connected: zKhFyT229gWQSMIlAAAH","service":"netlabx-backend","timestamp":"2026-04-27 17:23:44"}
+{"level":"info","message":"User connected: 1Ezsq2Pzy6LNSP4CAAAJ","service":"netlabx-backend","timestamp":"2026-04-27 17:23:45"}
+{"level":"info","message":"Curriculum download requested: Cloud-Based AI and IoT Soil Nutrient Intelligence System PROPOSAL-1777115086312-116170681","service":"netlabx-backend","timestamp":"2026-04-27 17:23:55"}
+{"level":"info","message":"User disconnected: zKhFyT229gWQSMIlAAAH","service":"netlabx-backend","timestamp":"2026-04-27 17:24:38"}
+{"level":"info","message":"User disconnected: 1Ezsq2Pzy6LNSP4CAAAJ","service":"netlabx-backend","timestamp":"2026-04-27 17:24:39"}
+{"level":"info","message":"User disconnected: WpQz_1RZJqFkGfOlAAAC","service":"netlabx-backend","timestamp":"2026-04-27 17:24:40"}
+{"level":"info","message":"User disconnected: zRP8HgUjIEBnXHzDAAAD","service":"netlabx-backend","timestamp":"2026-04-27 17:24:42"}
+{"level":"info","message":"User disconnected: MpcqypdAQJsr78P5AAAG","service":"netlabx-backend","timestamp":"2026-04-27 17:24:44"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 17:24:55"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 17:24:55"}
+{"level":"info","message":"User connected: nEupxk3auKdfi3yVAAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:26:05"}
+{"level":"info","message":"User disconnected: nEupxk3auKdfi3yVAAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:26:05"}
+{"level":"info","message":"User connected: eoCE4kZdl6bD0ysTAAAD","service":"netlabx-backend","timestamp":"2026-04-27 17:26:05"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:26:09"}
+{"level":"info","message":"Successfully extracted .docx content for: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-27 17:26:11"}
+{"level":"info","message":"Curriculum content requested: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-27 17:26:11"}
+{"level":"info","message":"Curriculum download requested: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-27 17:26:17"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 17:28:57"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 17:28:57"}
+{"level":"info","message":"User connected: 2C5SDxOOAlsbOGkEAAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:28:59"}
+{"level":"info","message":"Successfully extracted .docx content with images for: Cloud-Based AI and IoT Soil Nutrient Intelligence System PROPOSAL-1777115086312-116170681","service":"netlabx-backend","timestamp":"2026-04-27 17:29:11"}
+{"level":"info","message":"Curriculum content requested: Cloud-Based AI and IoT Soil Nutrient Intelligence System PROPOSAL-1777115086312-116170681","service":"netlabx-backend","timestamp":"2026-04-27 17:29:11"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 17:29:55"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 17:29:55"}
+{"level":"info","message":"User connected: 2gODDQHl6iWhKOngAAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:29:55"}
+{"level":"info","message":"User disconnected: 2gODDQHl6iWhKOngAAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:30:04"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:30:07"}
+{"level":"info","message":"User connected: QkAu5Ku1RCSSHC4_AAAE","service":"netlabx-backend","timestamp":"2026-04-27 17:30:07"}
+{"level":"info","message":"Successfully extracted .docx content with images for: 17 Network Services and Applications-1777274371588-287347962","service":"netlabx-backend","timestamp":"2026-04-27 17:30:15"}
+{"level":"info","message":"Curriculum content requested: 17 Network Services and Applications-1777274371588-287347962","service":"netlabx-backend","timestamp":"2026-04-27 17:30:15"}
+{"level":"info","message":"Successfully extracted .docx content with images for: 18 WAN Technologies-1777274371530-975797193","service":"netlabx-backend","timestamp":"2026-04-27 17:30:34"}
+{"level":"info","message":"Curriculum content requested: 18 WAN Technologies-1777274371530-975797193","service":"netlabx-backend","timestamp":"2026-04-27 17:30:34"}
+{"level":"info","message":"Successfully extracted .docx content with images for: Cloud-Based AI and IoT Soil Nutrient Intelligence System PROPOSAL-1777115086312-116170681","service":"netlabx-backend","timestamp":"2026-04-27 17:31:16"}
+{"level":"info","message":"Curriculum content requested: Cloud-Based AI and IoT Soil Nutrient Intelligence System PROPOSAL-1777115086312-116170681","service":"netlabx-backend","timestamp":"2026-04-27 17:31:16"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 17:32:17"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 17:32:17"}
+{"level":"info","message":"User connected: UzMcXPeeSq7-YQSyAAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:32:18"}
+{"level":"info","message":"User disconnected: UzMcXPeeSq7-YQSyAAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:37:47"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 17:38:33"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 17:38:33"}
+{"level":"info","message":"User connected: FHtZM7DIcdo5BxzfAAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:39:26"}
+{"level":"info","message":"User disconnected: FHtZM7DIcdo5BxzfAAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:39:26"}
+{"level":"info","message":"User connected: 3S_W4fn1PdHN0qYiAAAD","service":"netlabx-backend","timestamp":"2026-04-27 17:39:26"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:39:31"}
+{"level":"info","message":"Curriculum content requested: 01 (Compulsory) Spanning Tree-1776927244013-823616181","service":"netlabx-backend","timestamp":"2026-04-27 17:39:36"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 17:41:37"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 17:41:37"}
+{"level":"info","message":"User connected: 36t3lVkhTbNr3CM3AAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:41:37"}
+{"level":"info","message":"Successfully extracted .docx content with images for: 01 (Compulsory) Spanning Tree-1776928299810-85228472","service":"netlabx-backend","timestamp":"2026-04-27 17:41:51"}
+{"level":"info","message":"Curriculum content requested: 01 (Compulsory) Spanning Tree-1776928299810-85228472","service":"netlabx-backend","timestamp":"2026-04-27 17:41:51"}
+{"level":"info","message":"User disconnected: 36t3lVkhTbNr3CM3AAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:42:18"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 17:42:51"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 17:42:51"}
+{"level":"info","message":"User connected: 6huv3Pawy_XDp0zjAAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:43:20"}
+{"level":"info","message":"User disconnected: 6huv3Pawy_XDp0zjAAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:43:20"}
+{"level":"info","message":"User connected: 03Dleo4KC8dUwND4AAAD","service":"netlabx-backend","timestamp":"2026-04-27 17:43:20"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:43:23"}
+{"level":"info","message":"Successfully extracted .docx content with images for: 02 Network Reference Model-1777274349881-19120296","service":"netlabx-backend","timestamp":"2026-04-27 17:43:27"}
+{"level":"info","message":"Curriculum content requested: 02 Network Reference Model-1777274349881-19120296","service":"netlabx-backend","timestamp":"2026-04-27 17:43:27"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 17:45:33"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 17:45:33"}
+{"level":"info","message":"User connected: 6Cs1Z9X6hfUFaeQXAAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:45:33"}
+{"level":"info","message":"Successfully extracted .docx content with images for: 01 (Compulsory) Spanning Tree-1776928299810-85228472","service":"netlabx-backend","timestamp":"2026-04-27 17:45:46"}
+{"level":"info","message":"Curriculum content requested: 01 (Compulsory) Spanning Tree-1776928299810-85228472","service":"netlabx-backend","timestamp":"2026-04-27 17:45:46"}
+{"level":"info","message":"User disconnected: 6Cs1Z9X6hfUFaeQXAAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:46:05"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 17:46:30"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 17:46:30"}
+{"level":"info","message":"User connected: 69598uIEVtEass4WAAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:47:33"}
+{"level":"info","message":"User disconnected: 69598uIEVtEass4WAAAB","service":"netlabx-backend","timestamp":"2026-04-27 17:47:33"}
+{"level":"info","message":"User connected: Y2Jvv6Yv-xD6B12OAAAD","service":"netlabx-backend","timestamp":"2026-04-27 17:47:33"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:47:37"}
+{"level":"info","message":"Successfully extracted PDF content for: 01 (Compulsory) Spanning Tree-1776927244013-823616181","service":"netlabx-backend","timestamp":"2026-04-27 17:47:41"}
+{"level":"info","message":"Curriculum content requested: 01 (Compulsory) Spanning Tree-1776927244013-823616181","service":"netlabx-backend","timestamp":"2026-04-27 17:47:41"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:48:06"}
+{"level":"info","message":"User connected: KU4OUYkcLbjzktlAAAAG","service":"netlabx-backend","timestamp":"2026-04-27 17:48:06"}
+{"level":"info","message":"User disconnected: Y2Jvv6Yv-xD6B12OAAAD","service":"netlabx-backend","timestamp":"2026-04-27 17:48:08"}
+{"level":"info","message":"Successfully extracted .docx content with images for: 18 WAN Technologies-1777274371530-975797193","service":"netlabx-backend","timestamp":"2026-04-27 17:48:11"}
+{"level":"info","message":"Curriculum content requested: 18 WAN Technologies-1777274371530-975797193","service":"netlabx-backend","timestamp":"2026-04-27 17:48:11"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:51:33"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:51:41"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-27 17:52:26"}
+{"level":"info","message":"User disconnected: KU4OUYkcLbjzktlAAAAG","service":"netlabx-backend","timestamp":"2026-04-27 17:57:29"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 18:01:17"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 18:01:17"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-27 21:59:49"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-27 21:59:49"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-28 09:01:49"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-28 09:01:49"}
+{"level":"info","message":"New user registered: student@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-28 09:02:33"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-28 09:03:44"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-28 09:03:44"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-28 09:06:59"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-28 09:06:59"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-28 09:08:08"}
+{"level":"info","message":"User connected: i9K4AzU5wtTj7NPCAAAB","service":"netlabx-backend","timestamp":"2026-04-28 09:08:08"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 09:08:13"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-28 09:11:30"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-28 09:11:30"}
+{"level":"info","message":"User connected: 9Jdsoim-AlcG2XzLAAAB","service":"netlabx-backend","timestamp":"2026-04-28 09:11:31"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-28 09:12:58"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-28 09:12:58"}
+{"level":"info","message":"User connected: qQrFq9i-62-8uO5nAAAB","service":"netlabx-backend","timestamp":"2026-04-28 09:12:58"}
+{"level":"info","message":"User disconnected: qQrFq9i-62-8uO5nAAAB","service":"netlabx-backend","timestamp":"2026-04-28 09:15:59"}
+{"level":"info","message":"Server running on port 5000","service":"netlabx-backend","timestamp":"2026-04-28 09:19:25"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-28 09:19:25"}
+{"level":"info","message":"Server running on port 5001","service":"netlabx-backend","timestamp":"2026-04-28 09:24:42"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-28 09:24:42"}
+{"level":"info","message":"Server running on port 5001","service":"netlabx-backend","timestamp":"2026-04-28 09:24:57"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-28 09:24:57"}
+{"level":"info","message":"Server running on port 5001","service":"netlabx-backend","timestamp":"2026-04-28 09:25:07"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-28 09:25:07"}
+{"body":"\"{}\"","expose":true,"level":"error","message":"Unexpected token '\"', \"\"{}\"\" is not valid JSON","service":"netlabx-backend","stack":"SyntaxError: Unexpected token '\"', \"\"{}\"\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (C:\\Users\\Heli\\Documents\\Intelligent Network Simulation and Training Platform\\node_modules\\body-parser\\lib\\types\\json.js:169:10)\n    at parse (C:\\Users\\Heli\\Documents\\Intelligent Network Simulation and Training Platform\\node_modules\\body-parser\\lib\\types\\json.js:86:15)\n    at C:\\Users\\Heli\\Documents\\Intelligent Network Simulation and Training Platform\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:228:14)\n    at invokeCallback (C:\\Users\\Heli\\Documents\\Intelligent Network Simulation and Training Platform\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\Heli\\Documents\\Intelligent Network Simulation and Training Platform\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\Heli\\Documents\\Intelligent Network Simulation and Training Platform\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:508:28)\n    at endReadableNT (node:internal/streams/readable:1729:12)","status":400,"statusCode":400,"timestamp":"2026-04-28 09:25:37","type":"entity.parse.failed"}
+{"level":"info","message":"User logged in: student@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-28 09:26:50"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 09:29:45"}
+{"level":"info","message":"User connected: vEq2XCEUpwvT-6-RAAAB","service":"netlabx-backend","timestamp":"2026-04-28 09:31:27"}
+{"level":"info","message":"Server running on port 5001","service":"netlabx-backend","timestamp":"2026-04-28 09:34:42"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-28 09:34:42"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 09:34:51"}
+{"level":"info","message":"User logged in: student@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-28 09:35:27"}
+{"level":"info","message":"User connected: 0Ds-xpTLn6XylyWNAAAB","service":"netlabx-backend","timestamp":"2026-04-28 09:35:27"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 09:35:39"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 09:36:19"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 09:37:55"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 09:47:38"}
+{"level":"info","message":"User disconnected: 0Ds-xpTLn6XylyWNAAAB","service":"netlabx-backend","timestamp":"2026-04-28 09:53:21"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 10:42:33"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 10:43:00"}
+{"level":"info","message":"Successfully extracted .docx content with images for: 18 WAN Technologies-1777274371530-975797193","service":"netlabx-backend","timestamp":"2026-04-28 10:43:06"}
+{"level":"info","message":"Curriculum content requested: 18 WAN Technologies-1777274371530-975797193","service":"netlabx-backend","timestamp":"2026-04-28 10:43:06"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 10:43:38"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 10:45:12"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 10:45:36"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 10:45:49"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 10:48:48"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 10:49:34"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 10:49:38"}
+{"level":"info","message":"Server running on port 5001","service":"netlabx-backend","timestamp":"2026-04-28 10:51:15"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-28 10:51:15"}
+{"level":"info","message":"Curriculum view requested: 18 WAN Technologies-1777274371530-975797193","service":"netlabx-backend","timestamp":"2026-04-28 10:51:21"}
+{"level":"info","message":"Client disconnected during view: 18 WAN Technologies-1777274371530-975797193","service":"netlabx-backend","timestamp":"2026-04-28 10:53:05"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 10:57:05"}
+{"level":"info","message":"Curriculum view requested: 18 WAN Technologies-1777274371530-975797193","service":"netlabx-backend","timestamp":"2026-04-28 10:57:09"}
+{"level":"info","message":"Client disconnected during view: 18 WAN Technologies-1777274371530-975797193","service":"netlabx-backend","timestamp":"2026-04-28 10:57:09"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 10:57:36"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 10:58:07"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 10:58:38"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 10:58:51"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 10:58:57"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 10:59:04"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 10:59:09"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 10:59:40"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 11:00:11"}
+{"level":"info","message":"Server running on port 5001","service":"netlabx-backend","timestamp":"2026-04-28 11:00:51"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-28 11:00:51"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 11:00:52"}
+{"level":"info","message":"Successfully extracted DOCX content for: 18 WAN Technologies-1777274371530-975797193","service":"netlabx-backend","timestamp":"2026-04-28 11:01:02"}
+{"level":"info","message":"Curriculum content requested: 18 WAN Technologies-1777274371530-975797193","service":"netlabx-backend","timestamp":"2026-04-28 11:01:02"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 11:03:25"}
+{"level":"info","message":"Successfully extracted DOCX content for: 17 Network Services and Applications-1777274371588-287347962","service":"netlabx-backend","timestamp":"2026-04-28 11:03:31"}
+{"level":"info","message":"Curriculum content requested: 17 Network Services and Applications-1777274371588-287347962","service":"netlabx-backend","timestamp":"2026-04-28 11:03:31"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 11:03:56"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 11:04:27"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 11:04:58"}
+{"level":"info","message":"Server running on port 5001","service":"netlabx-backend","timestamp":"2026-04-28 11:05:07"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-28 11:05:07"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 11:06:10"}
+{"level":"info","message":"Successfully extracted DOCX content for: 17 Network Services and Applications-1777274371588-287347962","service":"netlabx-backend","timestamp":"2026-04-28 11:06:15"}
+{"level":"info","message":"Curriculum content requested: 17 Network Services and Applications-1777274371588-287347962","service":"netlabx-backend","timestamp":"2026-04-28 11:06:15"}
+{"level":"info","message":"Server running on port 5001","service":"netlabx-backend","timestamp":"2026-04-28 11:10:06"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-28 11:10:06"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 11:10:45"}
+{"level":"info","message":"Successfully extracted DOCX content for: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-28 11:10:50"}
+{"level":"info","message":"Curriculum content requested: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-28 11:10:50"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 12:26:14"}
+{"level":"info","message":"Successfully extracted DOCX content for: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-28 12:26:17"}
+{"level":"info","message":"Curriculum content requested: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-28 12:26:17"}
+{"level":"info","message":"Curriculum download requested: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-28 12:37:53"}
+{"level":"info","message":"Client disconnected during download: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-28 12:37:53"}
+{"level":"info","message":"Successfully extracted DOCX content for: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-28 12:37:56"}
+{"level":"info","message":"Curriculum content requested: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-28 12:37:56"}
+{"level":"info","message":"User logged in: student@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-28 12:41:37"}
+{"level":"info","message":"User connected: ttnnH-AxPtrz3yuDAAAB","service":"netlabx-backend","timestamp":"2026-04-28 12:41:37"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-28 14:12:52"}
+{"level":"info","message":"User disconnected: ttnnH-AxPtrz3yuDAAAB","service":"netlabx-backend","timestamp":"2026-04-28 15:15:55"}
+{"level":"info","message":"User connected: hDj5OviLttrHVhttAAAD","service":"netlabx-backend","timestamp":"2026-04-28 15:50:31"}
+{"level":"info","message":"User disconnected: hDj5OviLttrHVhttAAAD","service":"netlabx-backend","timestamp":"2026-04-28 15:50:31"}
+{"level":"info","message":"User connected: pMxqbVFtTjet-S-VAAAF","service":"netlabx-backend","timestamp":"2026-04-28 15:50:31"}
+{"level":"info","message":"User disconnected: pMxqbVFtTjet-S-VAAAF","service":"netlabx-backend","timestamp":"2026-04-28 15:54:54"}
+{"level":"info","message":"User logged in: student@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-28 15:55:29"}
+{"level":"info","message":"User connected: eTBREMiWoIZ_r3FPAAAH","service":"netlabx-backend","timestamp":"2026-04-28 15:55:29"}
+{"level":"info","message":"User disconnected: eTBREMiWoIZ_r3FPAAAH","service":"netlabx-backend","timestamp":"2026-04-28 15:58:49"}
+{"level":"info","message":"User logged in: admin@matlabx.com","service":"netlabx-backend","timestamp":"2026-04-28 15:59:41"}
+{"level":"info","message":"User connected: GYY_Q5B69wuT2n0_AAAJ","service":"netlabx-backend","timestamp":"2026-04-28 15:59:41"}
+{"level":"info","message":"Server running on port 5001","service":"netlabx-backend","timestamp":"2026-04-30 08:35:33"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-30 08:35:33"}
+{"level":"info","message":"User connected: IrM8gwqNoiIO9DImAAAC","service":"netlabx-backend","timestamp":"2026-04-30 08:35:56"}
+{"level":"error","message":"Get lab error: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Lab\"","service":"netlabx-backend","timestamp":"2026-04-30 08:36:08"}
+{"level":"info","message":"User disconnected: IrM8gwqNoiIO9DImAAAC","service":"netlabx-backend","timestamp":"2026-04-30 08:36:08"}
+{"level":"info","message":"User connected: XJzVeIjk2kvficyLAAAE","service":"netlabx-backend","timestamp":"2026-04-30 08:36:16"}
+{"level":"info","message":"User disconnected: XJzVeIjk2kvficyLAAAE","service":"netlabx-backend","timestamp":"2026-04-30 08:36:16"}
+{"level":"info","message":"User connected: 9ImXWFtSg3jsYkdvAAAG","service":"netlabx-backend","timestamp":"2026-04-30 08:36:16"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-30 08:36:24"}
+{"level":"info","message":"Server running on port 5001","service":"netlabx-backend","timestamp":"2026-04-30 11:17:11"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-30 11:17:11"}
+{"level":"info","message":"User connected: 1kUlhp3xcFdd9syhAAAB","service":"netlabx-backend","timestamp":"2026-04-30 11:17:28"}
+{"level":"info","message":"User disconnected: 1kUlhp3xcFdd9syhAAAB","service":"netlabx-backend","timestamp":"2026-04-30 11:17:28"}
+{"level":"info","message":"User connected: gyXHMuRCDdjE-xyFAAAD","service":"netlabx-backend","timestamp":"2026-04-30 11:17:28"}
+{"level":"info","message":"User disconnected: gyXHMuRCDdjE-xyFAAAD","service":"netlabx-backend","timestamp":"2026-04-30 11:17:30"}
+{"level":"info","message":"User connected: w_hSj8mBC3HZjPgzAAAG","service":"netlabx-backend","timestamp":"2026-04-30 11:17:30"}
+{"level":"info","message":"Server running on port 5001","service":"netlabx-backend","timestamp":"2026-04-30 11:34:49"}
+{"level":"info","message":"Connected to MongoDB","service":"netlabx-backend","timestamp":"2026-04-30 11:34:49"}
+{"level":"info","message":"User connected: DVCHrHTzxC2lU-dWAAAB","service":"netlabx-backend","timestamp":"2026-04-30 11:34:50"}
+{"level":"info","message":"User disconnected: DVCHrHTzxC2lU-dWAAAB","service":"netlabx-backend","timestamp":"2026-04-30 11:44:13"}
+{"level":"info","message":"User connected: 0MF4GRMMx-BX31uNAAAD","service":"netlabx-backend","timestamp":"2026-04-30 11:44:16"}
+{"level":"info","message":"User disconnected: 0MF4GRMMx-BX31uNAAAD","service":"netlabx-backend","timestamp":"2026-04-30 11:44:16"}
+{"level":"info","message":"User connected: lpCM28fD5SM02ygYAAAF","service":"netlabx-backend","timestamp":"2026-04-30 11:44:16"}
+{"level":"info","message":"Curriculum fetched: 10 items","service":"netlabx-backend","timestamp":"2026-04-30 11:44:58"}
+{"level":"info","message":"Successfully extracted DOCX content for: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-30 11:45:01"}
+{"level":"info","message":"Curriculum content requested: 01 (Optional) Preparing and Testing Network Jumpers-1776927243882-47177049","service":"netlabx-backend","timestamp":"2026-04-30 11:45:01"}
+{"level":"info","message":"Successfully extracted DOCX content for: 14 ACL Principles and Configuration-1777274358263-848927536","service":"netlabx-backend","timestamp":"2026-04-30 11:52:15"}
+{"level":"info","message":"Curriculum content requested: 14 ACL Principles and Configuration-1777274358263-848927536","service":"netlabx-backend","timestamp":"2026-04-30 11:52:15"}
+{"level":"info","message":"User disconnected: lpCM28fD5SM02ygYAAAF","service":"netlabx-backend","timestamp":"2026-04-30 15:54:04"}

@@ -62,6 +62,18 @@ const upload = multer({
 // @access  Private (Instructor/Admin)
 router.post('/bulk', protect, authorize('instructor', 'admin'), upload.array('files', 200), async (req, res) => {
   try {
+    console.log("🔥 BULK DEBUG - req.files:", req.files);
+    console.log("🔥 BULK DEBUG - req.user:", req.user);
+    console.log("🔥 BULK DEBUG - req.body:", req.body);
+    
+    if (!req.user) {
+      console.log("❌ req.user missing in bulk upload route");
+      return res.status(401).json({
+        success: false,
+        message: "Unauthorized - user not found"
+      });
+    }
+
     if (!req.files || req.files.length === 0) {
       return res.status(400).json({
         success: false,
@@ -81,7 +93,7 @@ router.post('/bulk', protect, authorize('instructor', 'admin'), upload.array('fi
       const file = req.files[i];
       try {
         // Log the upload
-        logger.info(`Bulk file uploaded: ${file.originalname} by ${req.user.username}`);
+        logger.info(`Bulk file uploaded: ${file.originalname} by ${req.user?.username || 'unknown'}`);
         
         // Add to successful results
         results.successful.push({
@@ -92,7 +104,7 @@ router.post('/bulk', protect, authorize('instructor', 'admin'), upload.array('fi
           path: file.path,
           type: type || 'general',
           category: category || 'general',
-          uploadedBy: req.user.username,
+          uploadedBy: req.user?.username || 'unknown',
           uploadedAt: new Date()
         });
       } catch (error) {
@@ -110,10 +122,12 @@ router.post('/bulk', protect, authorize('instructor', 'admin'), upload.array('fi
       data: results
     });
   } catch (error) {
+    console.error("🔥 BULK UPLOAD FULL ERROR:", error);
+    console.error("🔥 ERROR STACK:", error.stack);
     logger.error(`Bulk upload error: ${error.message}`);
     res.status(500).json({
       success: false,
-      message: 'Server error during bulk upload'
+      message: error.message || 'Server error during bulk upload'
     });
   }
 });
@@ -121,11 +135,12 @@ router.post('/bulk', protect, authorize('instructor', 'admin'), upload.array('fi
 // @desc    Upload single file
 // @route   POST /api/upload/file
 // @access  Private (Instructor/Admin)
-router.post('/file', (req, res, next) => {
-  console.log("🔥 UPLOAD ROUTE HIT - auth middleware reached");
-  next();
-}, protect, authorize('instructor', 'admin'), upload.single('file'), async (req, res) => {
+router.post('/file', protect, authorize('instructor', 'admin'), upload.single('file'), async (req, res) => {
   try {
+    console.log("🔥 DEBUG - req.file:", req.file);
+    console.log("🔥 DEBUG - req.user:", req.user);
+    console.log("🔥 DEBUG - req.body:", req.body);
+    
     if (!req.file) {
       return res.status(400).json({
         success: false,
@@ -135,8 +150,20 @@ router.post('/file', (req, res, next) => {
 
     const { type, category } = req.body;
     
+    console.log("UPLOAD req.user =", req.user);
+    
+    if (!req.user) {
+      console.log("❌ req.user missing in upload route");
+      return res.status(401).json({
+        success: false,
+        message: "Unauthorized - user not found"
+      });
+    }
+
+    const username = req.user.username;
+    
     // Log the upload
-    logger.info(`File uploaded: ${req.file.originalname} by ${req.user.username}`);
+    logger.info(`File uploaded: ${req.file.originalname} by ${username}`);
     
     // Return file information
     res.status(200).json({
@@ -150,15 +177,18 @@ router.post('/file', (req, res, next) => {
         path: req.file.path,
         type: type || 'general',
         category: category || 'general',
-        uploadedBy: req.user.username,
+        uploadedBy: username,
         uploadedAt: new Date()
       }
     });
   } catch (error) {
+    console.error("🔥 FULL UPLOAD ERROR:", error);
+    console.error("🔥 ERROR STACK:", error.stack);
     logger.error(`File upload error: ${error.message}`);
+    
     res.status(500).json({
       success: false,
-      message: 'Server error during file upload'
+      message: error.message // SHOW REAL ERROR
     });
   }
 });

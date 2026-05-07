@@ -76,13 +76,21 @@ const BatchUploadPage = () => {
     console.log('2. Files type:', typeof files)
     console.log('3. Files constructor:', files.constructor.name)
     
-    const validFiles = Array.from(files)
-    console.log('4. ValidFiles after Array.from():', validFiles)
+    // Filter out 0-byte files and ensure only real File objects
+    const validFiles = Array.from(files).filter(file => {
+      const isValid = file instanceof File && file.size > 0
+      if (!isValid) {
+        console.log(`❌ Invalid file: ${file.name} (size: ${file.size}, type: ${typeof file})`)
+      }
+      return isValid
+    })
+    
+    console.log('4. ValidFiles after filtering:', validFiles)
     console.log('5. ValidFiles length:', validFiles.length)
     
     if (validFiles.length === 0) {
-      console.log('6. No valid files found')
-      toast.error('Please select files to upload')
+      console.log('6. No valid files found - all files were 0 bytes or invalid')
+      toast.error('Please select valid files (non-empty files only)')
       return
     }
 
@@ -177,110 +185,62 @@ const BatchUploadPage = () => {
         total: selectedFiles.length
       }
 
-      // Process files in chunks of 3 to avoid overwhelming the server
-      const concurrentLimit = 3
-      const chunks = []
+      // Use bulk upload for all files at once
+      console.log(`Processing ${selectedFiles.length} files with bulk upload`)
       
-      for (let i = 0; i < selectedFiles.length; i += concurrentLimit) {
-        chunks.push(selectedFiles.slice(i, i + concurrentLimit))
+      const formData = new FormData()
+      formData.append('type', uploadType)
+      formData.append('category', uploadType)
+      
+      // Add all files to FormData with 'files' field name
+      selectedFiles.forEach((file, index) => {
+        console.log(`Adding file ${index + 1}: ${file.name} (${file.size} bytes)`)
+        formData.append('files', file)
+      })
+      
+      console.log("🔥 Sending bulk upload request...");
+      console.log(`Token exists:`, !!token)
+      console.log(`Total files in FormData:`, selectedFiles.length)
+
+      const response = await fetch("http://localhost:5001/api/upload/bulk", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${token}` 
+        },
+        body: formData
+      });
+
+      console.log("🔥 Response received:", response.status);
+
+      const data = await response.json();
+      console.log("🔥 Response data:", data);
+
+      if (!response.ok) {
+        throw new Error(data.message || "Upload failed");
       }
 
-      for (const chunk of chunks) {
-        console.log(`Processing chunk of ${chunk.length} files individually`)
-        
-        const uploadPromises = chunk.map(async (file, index) => {
-          try {
-            console.log(`=== UPLOAD DEBUG ${index + 1} ===`)
-            console.log(`1. Uploading file: ${file.name}`)
-            console.log(`2. File object:`, file)
-            console.log(`3. Is file a File?`, file instanceof File)
-            console.log(`4. File size:`, file.size)
-            console.log(`5. Token exists:`, !!getToken())
-            
-            const formData = new FormData()
-            formData.append('file', file)
-            formData.append('type', uploadType)
-            formData.append('category', uploadType)
-            
-            console.log(`6. FormData created, entries:`)
-            for (let [key, value] of formData.entries()) {
-              console.log(`   ${key}:`, value instanceof File ? `File(${value.name}, ${value.size} bytes)` : value)
-            }
-
-            const token = getToken();
-            console.log(`7. Making fetch request to http://localhost:5000/api/upload/file`)
-            console.log(`7.1 Token exists:`, !!token)
-            console.log(`7.2 Token length:`, token?.length)
-            console.log(`7.3 Authorization header:`, `Bearer ${token?.substring(0, 20)}...`)
-            
-            const response = await fetch('http://localhost:5000/api/upload/file', {
-              method: 'POST',
-              headers: {
-                'Authorization': `Bearer ${token}`
-              },
-              body: formData
-            })
-
-            console.log(`8. Response status: ${response.status}`)
-            console.log(`9. Response ok: ${response.ok}`)
-
-            if (response.ok) {
-              const result = await response.json()
-              console.log(`10. Upload success: ${file.name}`, result)
-              return {
-                success: true,
-                title: file.name,
-                id: result.data?.filename || `file-${Date.now()}-${Math.random()}`
-              }
-            } else {
-              const errorText = await response.text()
-              console.log(`11. Response text:`, errorText)
-              let errorData = {}
-              try {
-                errorData = JSON.parse(errorText)
-              } catch (e) {
-                errorData = { message: errorText }
-              }
-              console.error(`12. Upload failed: ${file.name}`, errorData)
-              return {
-                success: false,
-                title: file.name,
-                error: errorData.message || `Upload failed (${response.status})`
-              }
-            }
-          } catch (error) {
-            console.error(`13. Upload error: ${file.name}`, error)
-            return {
-              success: false,
-              title: file.name,
-              error: error.message
-            }
-          }
+      console.log(`Bulk upload success:`, data)
+      
+      // Convert bulk result to expected format
+      const bulkData = data.data || { successful: [], failed: [], total: 0 }
+      
+      bulkData.successful.forEach(file => {
+        allResults.successful.push({
+          success: true,
+          title: file.originalName,
+          id: file.filename
         })
-
-        const chunkResults = await Promise.all(uploadPromises)
-        
-        // Process chunk results
-        chunkResults.forEach(result => {
-          if (result.success) {
-            allResults.successful.push({
-              index: allResults.successful.length,
-              title: result.title,
-              id: result.id
-            })
-          } else {
-            allResults.failed.push({
-              index: allResults.failed.length,
-              title: result.title,
-              error: result.error
-            })
-          }
+      })
+      
+      bulkData.failed.forEach(file => {
+        allResults.failed.push({
+          success: false,
+          title: file.originalName,
+          error: file.error
         })
-
-        // Update results to show progress
-        setResults({...allResults})
-      }
-
+      })
+      
+      // Update UI state BEFORE returning
       setResults(allResults)
       setSelectedFiles([])
       
@@ -289,6 +249,12 @@ const BatchUploadPage = () => {
       } else {
         toast.error(`Upload completed: ${allResults.successful.length} successful, ${allResults.failed.length} failed`)
       }
+      
+      return allResults
+    } catch (error) {
+      console.error("❌ Upload failed:", error);
+      toast.error("Upload failed: " + error.message);
+      throw error;
     } finally {
       setIsUploading(false)
     }
@@ -391,7 +357,7 @@ const BatchUploadPage = () => {
     const blob = new Blob([JSON.stringify(sampleData, null, 2)], { type: 'application/json' })
     const file = new File([blob], `sample-${uploadType}.json`, { type: 'application/json' })
     setSelectedFiles([file])
-    toast.info('Sample data loaded')
+    toast('Sample data loaded')
   }
 
   if (!canUpload) {

@@ -81,6 +81,9 @@ router.post('/register', async (req, res) => {
 // @access  Public
 router.post('/login', async (req, res) => {
   try {
+    console.log("=== LOGIN HIT ===");
+    console.log("Request body:", req.body);
+
     const { email, password } = req.body;
 
     // Validate email & password
@@ -91,8 +94,11 @@ router.post('/login', async (req, res) => {
       });
     }
 
+    console.log("Step 1: Finding user with email:", email);
+
     // Check for user
     const user = await User.findOne({ email }).select('+password');
+    console.log("Step 2: User found:", !!user);
 
     if (!user) {
       return res.status(401).json({
@@ -101,8 +107,11 @@ router.post('/login', async (req, res) => {
       });
     }
 
+    console.log("Step 3: Comparing password");
+
     // Check if password matches
     const isMatch = await user.comparePassword(password);
+    console.log("Step 4: Password match:", isMatch);
 
     if (!isMatch) {
       return res.status(401).json({
@@ -110,6 +119,8 @@ router.post('/login', async (req, res) => {
         message: 'Invalid credentials'
       });
     }
+
+    console.log("Step 5: Checking user active status:", user.isActive);
 
     // Check if user is active
     if (!user.isActive) {
@@ -119,9 +130,12 @@ router.post('/login', async (req, res) => {
       });
     }
 
+    console.log("Step 6: Updating last login");
+
     // Update last login
     user.lastLogin = new Date();
     await user.save();
+    console.log("Step 7: User saved successfully");
 
     // Generate token
     const token = generateToken(user._id);
@@ -142,15 +156,21 @@ router.post('/login', async (req, res) => {
         lastLogin: user.lastLogin,
         isVerified: user.isVerified || false,
         hasCompletedOnboarding: user.hasCompletedOnboarding || false,
-        skills: user.skills || [],
-        goals: user.goals || []
+        goals: user.goals,
+        skills: user.skills
       }
     });
   } catch (error) {
+    console.log("=== LOGIN ERROR DETAILS ===");
+    console.log("Error object:", error);
+    console.log("Error message:", error.message);
+    console.log("Error stack:", error.stack);
+    console.log("Request body:", req.body);
+    
     logger.error(`Login error: ${error.message}`);
     res.status(500).json({
       success: false,
-      message: 'Server error during login'
+      message: error.message || 'Server error during login'
     });
   }
 });
@@ -342,6 +362,48 @@ router.post('/logout', protect, (req, res) => {
     success: true,
     message: 'Logout successful'
   });
+});
+
+// @desc    Fix student account verification status
+// @route   POST /api/auth/fix-student
+// @access  Public (temporary)
+router.post('/fix-student', async (req, res) => {
+  try {
+    const User = require('../models/User');
+    const student = await User.findOne({ email: 'student@matlabx.com' });
+    
+    if (student) {
+      // Update student account to be verified and completed onboarding
+      await User.updateOne(
+        { email: 'student@matlabx.com' },
+        {
+          $set: {
+            isVerified: true,
+            hasCompletedOnboarding: true
+          }
+        }
+      );
+      
+      res.json({
+        success: true,
+        message: 'Student account fixed successfully',
+        details: {
+          isVerified: true,
+          hasCompletedOnboarding: true
+        }
+      });
+    } else {
+      res.status(404).json({
+        success: false,
+        message: 'Student account not found'
+      });
+    }
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: error.message
+    });
+  }
 });
 
 module.exports = router;

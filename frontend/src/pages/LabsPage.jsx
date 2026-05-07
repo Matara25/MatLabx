@@ -75,7 +75,8 @@ const LabsPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-dark-bg">
+    <>
+      <div className="min-h-screen bg-dark-bg">
       {/* Header */}
       <div className="bg-dark-surface border-b border-dark-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -258,7 +259,8 @@ const LabsPage = () => {
           )}
         </div>
       </div>
-    )
-  }
+    </>
+  )
+}
 
 export default LabsPage
