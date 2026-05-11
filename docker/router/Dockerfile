@@ -1,31 +1,29 @@
-FROM alpine:latest
+FROM frrouting/frr:latest
 
-# Install basic networking tools
+# Install additional networking tools (Alpine Linux)
 RUN apk add --no-cache \
     iproute2 \
     iputils \
     net-tools \
     iptables \
-    quagga \
-    bird \
     tcpdump \
     nmap \
     curl \
     wget \
-    bash \
-    vim
+    vim \
+    busybox-extras \
+    openssh-client
 
-# Create configuration directories
-RUN mkdir -p /etc/quagga /etc/bird /etc/network/interfaces.d
+# Create FRR configuration directories
+RUN mkdir -p /etc/frr /etc/network/interfaces.d
 
-# Copy configuration templates
-COPY configs/quagga/ /etc/quagga/
-COPY configs/bird/ /etc/bird/
+# Copy FRR configuration templates
+COPY configs/frr/ /etc/frr/
 COPY configs/network/ /etc/network/
 
-# Set permissions for Quagga
-RUN chown -R quagga:quagga /etc/quagga && \
-    chmod 640 /etc/quagga/*.conf
+# Set permissions for FRR
+RUN chown -R frr:frr /etc/frr && \
+    chmod 640 /etc/frr/*.conf
 
 # Create startup script
 COPY scripts/start-router.sh /usr/local/bin/start-router.sh
@@ -36,7 +34,10 @@ EXPOSE 22 80 443 161
 
 # Set environment variables
 ENV DEVICE_TYPE=router
-ENV DEVICE_VENDOR=generic
+ENV DEVICE_VENDOR=cisco
 
-# Start the router services
-CMD ["/usr/local/bin/start-router.sh"]
+# Enable FRR daemons
+COPY daemons /etc/frr/daemons
+
+# Start FRR services
+CMD ["frrstart"]

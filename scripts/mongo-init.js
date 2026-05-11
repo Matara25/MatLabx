@@ -44,11 +44,11 @@ db.progresses.createIndex({ updatedAt: -1 });
 // Insert sample data
 print('Inserting sample data...');
 
-// Sample admin user
+// Admin user for demo
 db.users.insertOne({
   username: 'admin',
   email: 'admin@matlabx.com',
-  password: '$2a$12$9LhQdZvzZKZKZKZKZKZKZOzZKZKZKZKZKZKZKZKZKZKZKZKZKZKZKZK', // password: MatLabx@2026
+  password: '$2a$12$9LhQdZvzZKZKZKZKZKZKZOzZKZKZKZKZKZKZKZKZKZKZKZKZKZKZKZ', // password: MatLabx@2026
   role: 'admin',
   profile: {
     firstName: 'System',
@@ -64,64 +64,6 @@ db.users.insertOne({
   },
   isVerified: true,
   hasCompletedOnboarding: true,
-  verificationToken: null,
-  verificationTokenExpires: null,
-  skills: [],
-  goals: [],
-  isActive: true,
-  createdAt: new Date(),
-  updatedAt: new Date()
-});
-
-// Sample instructor user
-db.users.insertOne({
-  username: 'instructor',
-  email: 'instructor@matlabx.com',
-  password: '$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj6ukx.LFvOq', // password: instructor123
-  role: 'instructor',
-  profile: {
-    firstName: 'Network',
-    lastName: 'Instructor',
-    institution: 'MatLabx Training',
-    experienceLevel: 'advanced'
-  },
-  stats: {
-    labsCompleted: 0,
-    totalLabTime: 0,
-    averageScore: 0,
-    skills: []
-  },
-  isVerified: true,
-  hasCompletedOnboarding: true,
-  verificationToken: null,
-  verificationTokenExpires: null,
-  skills: [],
-  goals: [],
-  isActive: true,
-  createdAt: new Date(),
-  updatedAt: new Date()
-});
-
-// Sample student user
-db.users.insertOne({
-  username: 'student',
-  email: 'student@matlabx.com',
-  password: '$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj6ukx.LFvOq', // password: student123
-  role: 'student',
-  profile: {
-    firstName: 'Test',
-    lastName: 'Student',
-    institution: 'MatLabx Academy',
-    experienceLevel: 'beginner'
-  },
-  stats: {
-    labsCompleted: 0,
-    totalLabTime: 0,
-    averageScore: 0,
-    skills: []
-  },
-  isVerified: false, // New users need to verify email
-  hasCompletedOnboarding: false, // New users need onboarding
   verificationToken: null,
   verificationTokenExpires: null,
   skills: [],
@@ -343,10 +285,18 @@ const sampleLabs = [
 ];
 
 // Insert sample labs
-db.labs.insertMany(sampleLabs);
+try {
+  const instructorUser = db.users.findOne({ username: 'instructor' });
+  if (instructorUser) {
+    sampleLabs.forEach(lab => {
+      lab.createdBy = instructorUser._id;
+    });
+    db.labs.insertMany(sampleLabs);
+  }
+} catch (error) {
+  print('Error inserting labs:', error.message);
+}
 
 print('MongoDB initialization completed successfully!');
-print('Sample users created:');
-print('- admin@netlabx.com / admin123');
-print('- instructor@netlabx.com / instructor123');
-print('- student@netlabx.com / student123');
+print('Admin user created:');
+print('- admin@matlabx.com / MatLabx@2026');

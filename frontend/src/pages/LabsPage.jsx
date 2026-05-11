@@ -7,7 +7,11 @@ import {
   BookOpenIcon,
   ClockIcon,
   UserGroupIcon,
-  StarIcon
+  StarIcon,
+  ComputerDesktopIcon,
+  ServerStackIcon,
+  ExclamationTriangleIcon,
+  PlayIcon
 } from '@heroicons/react/24/outline'
 
 const LabsPage = () => {
@@ -20,17 +24,10 @@ const LabsPage = () => {
   const difficulties = ['all', 'beginner', 'intermediate', 'advanced']
   const sortOptions = ['popular', 'newest', 'highest-rated', 'duration']
 
-  const { data: labs, isLoading, error } = useQuery(
-    ['labs', searchTerm, selectedCategory, selectedDifficulty, sortBy],
-    async () => {
-      // Mock API call - in real app this would fetch from backend
-      const response = await fetch(`/api/labs?search=${searchTerm}&category=${selectedCategory}&difficulty=${selectedDifficulty}&sort=${sortBy}`)
-      return response.json()
-    },
-    {
-      keepPreviousData: true,
-    }
-  )
+  // Remove API call since we display labs directly in the component
+  const [labs, setLabs] = useState([])
+  const [isLoading, setIsLoading] = useState(false)
+  const [error, setError] = useState(null)
 
   const getDifficultyColor = (difficulty) => {
     switch (difficulty) {
@@ -152,18 +149,131 @@ const LabsPage = () => {
         </div>
       </div>
 
-      {/* Results */}
+      {/* Phase 1 Terminal Test */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {labs?.data?.length > 0 ? (
+        <div className="bg-gradient-to-r from-primary-600 to-primary-800 border border-primary-500/30 rounded-xl p-6 mb-8">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center space-x-4">
+              <div className="bg-primary-500/20 p-3 rounded-lg">
+                <ComputerDesktopIcon className="w-8 h-8 text-primary-300" />
+              </div>
+              <div>
+                <h2 className="text-2xl font-bold text-white mb-1">Phase 1 Terminal Test</h2>
+                <p className="text-primary-200">Test Docker connection and real FRRouting container terminal</p>
+              </div>
+            </div>
+            <button 
+              onClick={() => window.location.href = '/terminal-test'}
+              className="bg-white text-primary-600 px-6 py-3 rounded-lg font-semibold hover:bg-primary-50 transition-colors duration-200 flex items-center space-x-2"
+            >
+              <ServerStackIcon className="w-5 h-5" />
+              <span>Test Connection</span>
+            </button>
+          </div>
+          
+          <div className="mt-4 grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
+              <div className="flex items-center space-x-2 mb-2">
+                <ServerStackIcon className="w-5 h-5 text-primary-300" />
+                <span className="text-white font-semibold">Docker Connection</span>
+              </div>
+              <p className="text-primary-200 text-sm">Test connectivity to Docker containers</p>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
+              <div className="flex items-center space-x-2 mb-2">
+                <ComputerDesktopIcon className="w-5 h-5 text-primary-300" />
+                <span className="text-white font-semibold">Real Terminal</span>
+              </div>
+              <p className="text-primary-200 text-sm">Execute commands in FRRouting containers</p>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
+              <div className="flex items-center space-x-2 mb-2">
+                <ExclamationTriangleIcon className="w-5 h-5 text-primary-300" />
+                <span className="text-white font-semibold">Network Commands</span>
+              </div>
+              <p className="text-primary-200 text-sm">Test ping, ip addr, vtysh commands</p>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
+              <div className="flex items-center space-x-2 mb-2">
+                <BookOpenIcon className="w-5 h-5 text-primary-300" />
+                <span className="text-white font-semibold">Phase 2 Labs</span>
+              </div>
+              <p className="text-primary-200 text-sm">Multi-device network simulations</p>
+              <button 
+                onClick={() => window.location.href = '/phase2-labs'}
+                className="mt-2 w-full bg-primary-500 hover:bg-primary-600 text-white text-xs py-2 px-3 rounded transition-colors"
+              >
+                Try Phase 2
+              </button>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
+              <div className="flex items-center space-x-2 mb-2">
+                <ServerStackIcon className="w-5 h-5 text-primary-300" />
+                <span className="text-white font-semibold">Phase 3 Labs</span>
+              </div>
+              <p className="text-primary-200 text-sm">Intelligent labs with automatic validation</p>
+              <button 
+                onClick={() => window.location.href = '/phase3-labs'}
+                className="mt-2 w-full bg-primary-500 hover:bg-primary-600 text-white text-xs py-2 px-3 rounded transition-colors"
+              >
+                Try Phase 3
+              </button>
+            </div>
+          </div>
+
+          {/* Filters */}
+          <div className="flex flex-wrap gap-2">
+            <select
+              value={selectedCategory}
+              onChange={(e) => setSelectedCategory(e.target.value)}
+              className="px-4 py-2 bg-dark-surface border border-dark-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/50 text-dark-text"
+            >
+              {categories.map(category => (
+                <option key={category} value={category}>
+                  {category.charAt(0).toUpperCase() + category.slice(1)}
+                </option>
+              ))}
+            </select>
+
+            <select
+              value={selectedDifficulty}
+              onChange={(e) => setSelectedDifficulty(e.target.value)}
+              className="px-4 py-2 bg-dark-surface border border-dark-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/50 text-dark-text"
+            >
+              {difficulties.map(difficulty => (
+                <option key={difficulty} value={difficulty}>
+                  {difficulty.charAt(0).toUpperCase() + difficulty.slice(1)}
+                </option>
+              ))}
+            </select>
+
+            <select
+              value={sortBy}
+              onChange={(e) => setSortBy(e.target.value)}
+              className="px-4 py-2 bg-dark-surface border border-dark-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/50 text-dark-text"
+            >
+              {sortOptions.map(option => (
+                <option key={option} value={option}>
+                  {option.charAt(0).toUpperCase() + option.slice(1).replace('-', ' ')}
+                </option>
+              ))}
+            </select>
+          </div>
+        </div>
+      </div>
+
+      {/* Labs Grid */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {labs?.length > 0 ? (
           <>
             {/* Results count */}
             <div className="mb-6 text-dark-muted">
-              Found {labs.data.length} labs matching your criteria
+              Found {labs.length} labs matching your criteria
             </div>
 
             {/* Labs Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {labs.data.map((lab) => (
+              {labs.map((lab) => (
                 <div key={lab.id} className="bg-dark-surface border border-dark-border rounded-xl overflow-hidden hover:border-primary-500/50 transition-all duration-300 hover:scale-105">
                   {/* Lab Header */}
                   <div className="p-6 border-b border-dark-border">
@@ -176,27 +286,27 @@ const LabsPage = () => {
                         <span className="text-sm text-warning-400 font-medium">{lab.rating}</span>
                       </div>
                     </div>
-                    
+
                     <h3 className="text-lg font-semibold text-dark-text mb-2 line-clamp-1">
                       {lab.title}
                     </h3>
-                    
+
                     <p className="text-dark-muted text-sm line-clamp-2 mb-4">
                       {lab.description}
                     </p>
-                  </div>
 
-                  {/* Lab Details */}
-                  <div className="p-6 space-y-4">
-                    {/* Metadata */}
-                    <div className="grid grid-cols-2 gap-4 text-sm text-dark-muted">
-                      <div className="flex items-center">
+                    <div className="lab-details">
+                      <div className="detail-item">
                         <ClockIcon className="w-4 h-4 mr-2" />
                         <span>{lab.duration} minutes</span>
                       </div>
-                      <div className="flex items-center">
+                      <div className="detail-item">
                         <UserGroupIcon className="w-4 h-4 mr-2" />
                         <span>{lab.deviceCount || 3} devices</span>
+                      </div>
+                      <div className="detail-item">
+                        <StarIcon className="w-4 h-4 mr-2" />
+                        <span className="text-sm text-warning-400 font-medium">{lab.rating}</span>
                       </div>
                     </div>
 
@@ -212,10 +322,26 @@ const LabsPage = () => {
                       ))}
                     </div>
 
-                    {/* Action Button */}
-                    <button className="w-full btn-primary text-center">
-                      Start Lab
-                    </button>
+                    {/* Objectives Preview */}
+                    <div className="lab-objectives-preview">
+                      <h4>Learning Objectives:</h4>
+                      <ul>
+                        {lab.objectives.slice(0, 3).map((objective, index) => (
+                          <li key={index}>{objective}</li>
+                        ))}
+                        {lab.objectives.length > 3 && (
+                          <li className="more">+{lab.objectives.length - 3} more...</li>
+                        )}
+                      </ul>
+                    </div>
+
+                    {/* Actions */}
+                    <div className="lab-actions">
+                      <button className="btn btn-primary">
+                        <PlayIcon className="w-4 h-4" />
+                        Start Lab
+                      </button>
+                    </div>
                   </div>
                 </div>
               ))}
@@ -237,26 +363,26 @@ const LabsPage = () => {
             </div>
           </>
         ) : (
-            <div className="text-center py-16">
-              <BookOpenIcon className="w-16 h-16 text-dark-muted mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-dark-text mb-2">
-                No labs found
-              </h3>
-              <p className="text-dark-muted mb-6">
-                Try adjusting your filters or search terms to find what you're looking for.
-              </p>
-              <button 
-                onClick={() => {
-                  setSearchTerm('')
-                  setSelectedCategory('all')
-                  setSelectedDifficulty('all')
-                }}
-                className="btn-secondary"
-              >
-                Clear Filters
-              </button>
-            </div>
-          )}
+          <div className="text-center py-16">
+            <BookOpenIcon className="w-16 h-16 text-dark-muted mx-auto mb-4" />
+            <h3 className="text-xl font-semibold text-dark-text mb-2">
+              No labs found
+            </h3>
+            <p className="text-dark-muted mb-6">
+              Try adjusting your filters or search terms to find what you're looking for.
+            </p>
+            <button 
+              onClick={() => {
+                setSearchTerm('')
+                setSelectedCategory('all')
+                setSelectedDifficulty('all')
+              }}
+              className="btn btn-secondary"
+            >
+              Clear Filters
+            </button>
+          </div>
+        )}
         </div>
       </div>
     </>

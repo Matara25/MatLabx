@@ -111,7 +111,9 @@
   }
 
   .progress-fill {
-    @apply bg-gradient-primary h-full transition-all duration-500 ease-out;
+    background: linear-gradient(90deg, #8b5cf6, #a855f7);
+    height: 100%;
+    transition: all 0.5s ease-out;
   }
 
   /* Badge styles */

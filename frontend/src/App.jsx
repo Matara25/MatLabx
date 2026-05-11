@@ -12,6 +12,7 @@ import AuthModal from './components/auth/AuthModal'
 // Pages
 import HomePage from './pages/HomePage'
 import LabsPage from './pages/LabsPage'
+import Phase3LabsPage from './pages/Phase3LabsPage'
 import LabDetailPage from './pages/LabDetailPage'
 import SimulationPage from './pages/SimulationPage'
 import DashboardPage from './pages/DashboardPage'
@@ -24,6 +25,8 @@ import CreateLabPage from './pages/admin/CreateLabPage'
 import CreateCurriculumPage from './pages/admin/CreateCurriculumPage'
 import BatchUploadPage from './pages/BatchUploadPage'
 import AuthPage from './pages/AuthPage'
+import TerminalTestPage from './pages/TerminalTestPage'
+import Phase2LabsPage from './pages/Phase2LabsPage'
 
 // Context
 import { useAuth } from './contexts/AuthContext'
@@ -190,6 +193,48 @@ function App() {
                 </div>
               ) : user ? (
                 <CreateCurriculumPage />
+              ) : (
+                <Navigate to="/auth" replace />
+              )
+            } 
+          />
+          <Route 
+            path="/terminal-test" 
+            element={
+              authLoading ? (
+                <div className="min-h-screen bg-dark-bg flex items-center justify-center">
+                  <LoadingSpinner size="large" />
+                </div>
+              ) : user ? (
+                <TerminalTestPage />
+              ) : (
+                <Navigate to="/auth" replace />
+              )
+            } 
+          />
+          <Route 
+            path="/phase2-labs" 
+            element={
+              authLoading ? (
+                <div className="min-h-screen bg-dark-bg flex items-center justify-center">
+                  <LoadingSpinner size="large" />
+                </div>
+              ) : user ? (
+                <Phase2LabsPage />
+              ) : (
+                <Navigate to="/auth" replace />
+              )
+            } 
+          />
+          <Route 
+            path="/phase3-labs" 
+            element={
+              authLoading ? (
+                <div className="min-h-screen bg-dark-bg flex items-center justify-center">
+                  <LoadingSpinner size="large" />
+                </div>
+              ) : user ? (
+                <Phase3LabsPage />
               ) : (
                 <Navigate to="/auth" replace />
               )
